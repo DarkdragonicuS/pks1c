@@ -3622,6 +3622,7 @@
   <commonModules>CommonModule.АутсорсРаботы</commonModules>
   <commonAttributes>CommonAttribute.ОбластьДанныхВспомогательныеДанные</commonAttributes>
   <commonAttributes>CommonAttribute.ОбластьДанныхОсновныеДанные</commonAttributes>
+  <commonAttributes>CommonAttribute.Автор</commonAttributes>
   <exchangePlans>ExchangePlan.ИнтеграцияС1СДокументооборотом</exchangePlans>
   <exchangePlans>ExchangePlan.МиграцияПриложений</exchangePlans>
   <exchangePlans>ExchangePlan.МобильноеПриложениеЗаказыКлиентов</exchangePlans>

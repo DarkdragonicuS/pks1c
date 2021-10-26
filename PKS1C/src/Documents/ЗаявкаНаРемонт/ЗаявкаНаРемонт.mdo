@@ -69,7 +69,6 @@
   <defaultListForm>Document.ЗаявкаНаРемонт.Form.ФормаСписка</defaultListForm>
   <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
   <registerRecords>AccumulationRegister.СебестоимостьТоваров</registerRecords>
-  <registerRecords>InformationRegister.ИсторияИзмененийДокументов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="5eb63e04-a12c-4700-8c86-be659ece562a">

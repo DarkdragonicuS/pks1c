@@ -34,24 +34,4 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="63620fca-0fcd-45ae-9e28-4244491de961">
-    <name>Документ</name>
-    <synonym>
-      <key>ru</key>
-      <value>Документ</value>
-    </synonym>
-    <type>
-      <types>DocumentRef.ЗаявкиКлиентов</types>
-      <types>DocumentRef.ЗаявкаНаРемонт</types>
-      <types>DocumentRef.ДневнойОтчетПочасовыхРабот</types>
-      <types>DocumentRef.ПоступлениеЛицензий</types>
-      <types>DocumentRef.РеализацияЛицензий</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
 </mdclass:InformationRegister>

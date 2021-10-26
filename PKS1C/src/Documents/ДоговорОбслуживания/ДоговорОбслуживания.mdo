@@ -76,6 +76,7 @@
   <defaultListForm>Document.ДоговорОбслуживания.Form.ФормаСписка</defaultListForm>
   <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
   <registerRecords>InformationRegister.ДоговораОбслуживания</registerRecords>
+  <registerRecords>InformationRegister.ИсторияИзмененийДокументов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="c31d9ebe-9c9c-47bb-941e-8ef7e3accb1d">

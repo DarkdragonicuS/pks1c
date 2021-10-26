@@ -67,6 +67,7 @@
   <defaultObjectForm>Document.СменаДатКлючевыхНосителей.Form.ФормаДокумента</defaultObjectForm>
   <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
   <registerRecords>InformationRegister.ДатыКлючевыеНосители</registerRecords>
+  <registerRecords>InformationRegister.ИсторияИзмененийДокументов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="59796c94-ff1d-4c56-b3ee-9951e84c6d5c">

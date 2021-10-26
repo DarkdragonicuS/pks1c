@@ -67,6 +67,7 @@
   <defaultObjectForm>Document.НормаРабот.Form.ФормаДокумента</defaultObjectForm>
   <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
   <registerRecords>InformationRegister.НормаРабот</registerRecords>
+  <registerRecords>InformationRegister.ИсторияИзмененийДокументов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f9f9c2ca-638b-4cf1-95d5-4d391291ce5b">

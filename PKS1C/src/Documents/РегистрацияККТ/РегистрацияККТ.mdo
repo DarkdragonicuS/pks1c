@@ -71,6 +71,7 @@
   <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
   <registerRecords>InformationRegister.ДатыФН</registerRecords>
   <registerRecords>InformationRegister.КарточкиРегистрацийККТ</registerRecords>
+  <registerRecords>InformationRegister.ИсторияИзмененийДокументов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="c3c21cdd-adff-4e2e-b64a-17505c6c4497">
