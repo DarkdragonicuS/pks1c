@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <title>
     <key>ru</key>
     <value>Договора обслуживания</value>
@@ -597,6 +597,56 @@
         <autoMaxHeight>true</autoMaxHeight>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>Автор</name>
+      <id>49</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Автор</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>АвторРасширеннаяПодсказка</name>
+        <id>51</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>АвторКонтекстноеМеню</name>
+        <id>50</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
       <name>СписокКоманднаяПанель</name>
@@ -870,19 +920,18 @@
 	&amp;СтатусДействующий КАК Статус
 ПОМЕСТИТЬ ДействующиеДоговора
 ИЗ
-	РегистрСведений.ДоговораОбслуживания.СрезПоследних(
-			&amp;Дата,
-			(СрокДействия > &amp;Дата
-				ИЛИ СрокДействия = ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0))
-				И НЕ ЧерныйСписок) КАК ДоговораОбслуживанияСрезПоследних
-		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ДоговораОбслуживания.СрезПоследних(&amp;Дата, ) КАК ДоговораОбслуживанияСрезПоследних1
+	РегистрСведений.ДоговораОбслуживания.СрезПоследних(&amp;Дата, (СрокДействия > &amp;Дата
+	ИЛИ СрокДействия = ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0))
+	И НЕ ЧерныйСписок) КАК ДоговораОбслуживанияСрезПоследних
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ДоговораОбслуживания.СрезПоследних(&amp;Дата,) КАК
+			ДоговораОбслуживанияСрезПоследних1
 		ПО ДоговораОбслуживанияСрезПоследних.Регистратор = ДоговораОбслуживанияСрезПоследних1.Регистратор
 ГДЕ
 	ДоговораОбслуживанияСрезПоследних.Период &lt;= &amp;Дата
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
-ВЫБРАТЬ
+ ВЫБРАТЬ
 	ДоговораОбслуживанияСрезПоследних.Период КАК Период,
 	ДоговораОбслуживанияСрезПоследних.Регистратор КАК Регистратор,
 	ДоговораОбслуживанияСрезПоследних.Контрагент КАК Контрагент,
@@ -897,7 +946,7 @@
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
-ВЫБРАТЬ
+ ВЫБРАТЬ
 	ЕСТЬNULL(ДействующиеДоговора.Регистратор, ЧерныйСписокДоговоров.Регистратор) КАК Регистратор,
 	ЕСТЬNULL(ДействующиеДоговора.Период, ЧерныйСписокДоговоров.Период) КАК Период,
 	ЕСТЬNULL(ДействующиеДоговора.Контрагент, ЧерныйСписокДоговоров.Контрагент) КАК Контрагент,
@@ -914,7 +963,7 @@
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
-ВЫБРАТЬ
+ ВЫБРАТЬ
 	ДоговораОбслуживания.Период КАК Период,
 	ДоговораОбслуживания.Регистратор КАК Регистратор,
 	ДоговораОбслуживания.Контрагент КАК Контрагент,
@@ -933,7 +982,7 @@
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
-ВЫБРАТЬ
+ ВЫБРАТЬ
 	ЕСТЬNULL(ДействующиеИЧСДоговора.Регистратор, НедействующиеДоговора.Регистратор) КАК Ссылка,
 	ЕСТЬNULL(ДействующиеИЧСДоговора.Период, НедействующиеДоговора.Период) КАК Период,
 	ЕСТЬNULL(ДействующиеИЧСДоговора.Контрагент, НедействующиеДоговора.Контрагент) КАК Контрагент,
@@ -950,7 +999,7 @@
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
-ВЫБРАТЬ
+ ВЫБРАТЬ
 	ДоговорОбслуживания.Ссылка КАК Ссылка,
 	ДоговорОбслуживания.ПометкаУдаления КАК ПометкаУдаления,
 	ДоговорОбслуживания.Номер КАК Номер,
@@ -961,7 +1010,8 @@
 	ДоговорОбслуживания.Тариф КАК Тариф,
 	ДоговорОбслуживания.ТарифСверхурочный КАК ТарифСверхурочный,
 	ДоговорОбслуживания.СрокДействия КАК СрокДействия,
-	СписокПроведенных.Статус КАК Статус
+	СписокПроведенных.Статус КАК Статус,
+	СписокПроведенных.Ссылка.Автор КАК Автор
 ИЗ
 	Документ.ДоговорОбслуживания КАК ДоговорОбслуживания
 		ЛЕВОЕ СОЕДИНЕНИЕ СписокПроведенных КАК СписокПроведенных
@@ -971,6 +1021,122 @@
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Номер</dataPath>
+        <field>Номер</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Дата</dataPath>
+        <field>Дата</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проведен</dataPath>
+        <field>Проведен</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Контрагент</dataPath>
+        <field>Контрагент</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>АбонентскаяПлата</dataPath>
+        <field>АбонентскаяПлата</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Тариф</dataPath>
+        <field>Тариф</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТарифСверхурочный</dataPath>
+        <field>ТарифСверхурочный</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СрокДействия</dataPath>
+        <field>СрокДействия</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Статус</dataPath>
+        <field>Статус</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Автор</dataPath>
+        <field>Автор</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Автор</value>
+            </content>
+          </localValue>
+        </title>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
     </extInfo>
   </attributes>
   <commandInterface>
