@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38438a8a-debc-4280-a8d4-be6530755f87">
+  <producedTypes>
+    <objectType typeId="f6c7db31-dd61-48dd-8105-0482f518b1bf" valueTypeId="28fe9461-06fa-4d84-940d-cc06566b0c91"/>
+    <managerType typeId="d038825c-dba0-46af-84ba-7d666b4fd6ec" valueTypeId="af1e0fbb-0305-4800-aa62-81eecedcae02"/>
+  </producedTypes>
+  <name>ВыпадающийВыборПериода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выпадающий выбор периода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыпадающийВыборПериода.Form.Форма2</defaultForm>
+  <forms uuid="c4c7ad4e-702d-4c1f-bd1c-5da1d42865c1">
+    <name>Форма2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

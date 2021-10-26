@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bea323e5-4916-4ef5-b01a-84c0af9bca96">
+  <name>Аутсорсинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аутсорсинг</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделАутсорс2</picture>
+  </picture>
+  <content>Enum.ТипыЗаявок</content>
+  <content>Enum.СтатусыЗаявок</content>
+  <content>Enum.ПриоритетыЗаявок</content>
+  <content>CommonModule.АутсорсОбщегоНазначения</content>
+  <content>DataProcessor.ВыпадающийВыборПериода</content>
+  <subsystems>НСИ</subsystems>
+  <subsystems>ПочасовыеРаботы</subsystems>
+  <subsystems>КлючевыеНосители</subsystems>
+  <subsystems>Лицензии</subsystems>
+  <subsystems>Кассы</subsystems>
+  <subsystems>Бухгалтерия</subsystems>
+</mdclass:Subsystem>

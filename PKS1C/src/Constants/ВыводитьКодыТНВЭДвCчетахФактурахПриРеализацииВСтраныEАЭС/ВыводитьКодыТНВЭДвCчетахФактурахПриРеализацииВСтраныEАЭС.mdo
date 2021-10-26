@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2658edc7-8b4b-440c-9891-1babbec76191">
+  <producedTypes>
+    <managerType typeId="1f9e9afb-da0c-4396-8836-4939832e6f51" valueTypeId="6bd8444d-21e6-4105-b6e2-4d1c1149ad58"/>
+    <valueManagerType typeId="62dba07d-d855-4b9c-bdff-eb982b81003e" valueTypeId="01d37e5c-8d62-4971-9aad-279835d87d14"/>
+    <valueKeyType typeId="d97f51fc-37ed-5d7a-b4be-eb0a59844237" valueTypeId="2eb80e2c-554c-5912-bf21-a65d1195d887"/>
+  </producedTypes>
+  <name>ВыводитьКодыТНВЭДвCчетахФактурахПриРеализацииВСтраныEАЭС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выводить коды ТНВЭД в счетах-фактурах при реализации в страны EАЭС</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

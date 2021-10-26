@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce6e3985-fd5f-4ba3-b25d-6742db77b543">
+  <producedTypes>
+    <objectType typeId="2294736a-f647-4966-ae3b-49ce2337921b" valueTypeId="d16323e5-ea3a-43c2-8e2b-aefb6b3a4070"/>
+    <managerType typeId="d5838f9a-150f-4f91-8717-c5d4b384d2a8" valueTypeId="0923246e-8ece-4d17-b9b2-2bdc9ed05a38"/>
+  </producedTypes>
+  <name>ГрафикРаботРаботника</name>
+  <synonym>
+    <key>ru</key>
+    <value>График работ работника</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ГрафикРаботРаботника.Form.ФормаОтчета</defaultForm>
+  <forms uuid="e62f294a-c6dd-4212-8995-05020fe58fb4">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работ работника</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

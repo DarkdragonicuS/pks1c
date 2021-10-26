@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d7e5236-cb8e-4781-9f86-6bbcd3140687">
+  <name>РаботаСНоменклатурой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с номенклатурой</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonModule.РаботаСНоменклатурой</content>
+  <content>DataProcessor.РаботаСНоменклатурой</content>
+  <content>CommonModule.РаботаСНоменклатуройПереопределяемый</content>
+  <content>CommonModule.РаботаСНоменклатуройКлиентПереопределяемый</content>
+  <content>CommonModule.РаботаСНоменклатуройКлиент</content>
+  <content>CommonModule.РаботаСНоменклатуройСлужебныйВызовСервера</content>
+  <content>InformationRegister.СоответствиеВидовНоменклатурыРаботаСНоменклатурой</content>
+  <content>XDTOPackage.СхемаДанныхРаботаСНоменклатурой</content>
+  <content>CommonModule.РаботаСНоменклатуройСлужебныйКлиентСервер</content>
+  <content>Constant.ИспользоватьСервисРаботаСНоменклатурой</content>
+  <content>FunctionalOption.ИспользоватьСервисРаботаСНоменклатурой</content>
+  <content>ScheduledJob.ОбновлениеНоменклатурыРаботаСНоменклатурой</content>
+  <content>CommonPicture.ЛоготипСервисРаботаСНоменклатурой</content>
+  <content>CommonPicture.РучноеОбновлениеРаботаСНоменклатурой</content>
+  <content>CommonPicture.АвтоматическоеОбновлениеРаботаСНоменклатурой</content>
+  <content>InformationRegister.СоответствиеНоменклатурыРаботаСНоменклатурой</content>
+  <content>CommonModule.РаботаСНоменклатуройСлужебный</content>
+  <content>InformationRegister.СоответствиеЗначенийРеквизитовРаботаСНоменклатурой</content>
+  <content>InformationRegister.СоответствиеРеквизитовРаботаСНоменклатурой</content>
+  <content>DefinedType.НоменклатураРаботаСНоменклатурой</content>
+  <content>CommonPicture.ИконкаБелыйФонРаботаСНоменклатурой</content>
+  <content>CommonPicture.ИконкаКрасныйФонРаботаСНоменклатурой</content>
+  <content>CommonPicture.ДобавитьРаботаСНоменклатурой</content>
+  <content>DefinedType.ВидНоменклатурыРаботаСНоменклатурой</content>
+  <content>CommonPicture.ПоискПоШтрихкодуРаботаСНоменклатурой</content>
+  <content>DefinedType.ДополнительныеРеквизитыРаботаСНоменклатурой</content>
+  <content>Role.ЧтениеДанныхРаботаСНоменклатурой</content>
+  <content>Role.ДобавлениеИзменениеДанныхРаботаСНоменклатурой</content>
+  <content>DefinedType.ЗначенияСвойствОбъектовРаботаСНоменклатурой</content>
+  <content>CommonPicture.ИнформацияРаботаСНоменклатурой32</content>
+  <content>CommonPicture.НавигацияДомойБЭД</content>
+  <content>CommonPicture.ТележкаРаботаСНоменклатурой</content>
+  <content>DefinedType.ХарактеристикаРаботаСНоменклатурой</content>
+  <content>CommonPicture.ПризнакЗагрузкиРаботаСНоменклатурой</content>
+  <content>Enum.РежимыЗагрузкиХарактеристикРаботаСНоменклатурой</content>
+  <content>CommonPicture.ИзображениеСледующееРаботаСНоменклатурой</content>
+  <content>CommonPicture.ИзображениеПредыдущееРаботаСНоменклатурой</content>
+  <subsystems>ОблачныеКлассификаторы</subsystems>
+  <parentSubsystem>Subsystem.ЭлектронноеВзаимодействие</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64e7ab91-d63e-4fc5-a1f9-77977e0a1556">
+  <name>Лицензии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лицензии</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПоступлениеЛицензий</content>
+  <content>Document.РеализацияЛицензий</content>
+  <content>DataProcessor.ПодборЛицензий</content>
+  <content>AccumulationRegister.Лицензии</content>
+  <content>DataProcessor.КарточкаЛицензии</content>
+  <content>Report.ЛицензииСписок</content>
+  <content>CommonModule.АутсорсЛицензииКлиент</content>
+  <content>Report.ОстаткиЛицензий</content>
+  <content>Report.ДвижениеЛицензий</content>
+  <content>Constant.СтрогийУчетЛицензий</content>
+  <content>CommonModule.АутсорсЛицензииВызовСервера</content>
+  <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
+</mdclass:Subsystem>

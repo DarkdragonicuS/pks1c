@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>0:b144d63b-c4e6-4ef1-9a5f-06f569c312d6</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:769e31ab-54a8-4d58-bd93-1cc01720a36c</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.СверкаДанныхПартионногоУчетаИСебестоимости.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.СправкаРасчетПереоценкиВалютныхСредств.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+</cmi:CommandInterface>

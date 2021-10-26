@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08dbdc1b-6a5e-47f7-b2e6-80f2ea25b582">
+  <producedTypes>
+    <selectionType typeId="f19a4511-3d27-41b7-a024-9d078c55cc35" valueTypeId="683d47b9-42fc-4457-a5ea-d87f49331a89"/>
+    <listType typeId="30fa4e45-6159-4496-8406-18a42d73cb74" valueTypeId="51c06c94-53be-439d-8c2c-d9efb144065e"/>
+    <managerType typeId="3de9fffe-bc71-4c1a-b465-7a0bf12fc5d1" valueTypeId="975ffe9a-4e82-4a40-8c44-22e05fd09608"/>
+    <recordSetType typeId="9eeab32c-b3ab-4ea8-8fbc-b6fe34fd35ee" valueTypeId="924bd001-936a-4d60-b62d-4e33ec5799e9"/>
+    <recordKeyType typeId="fbcf7934-50be-429e-bb7d-9920c5d9bda8" valueTypeId="122e5c83-7214-430d-8d12-62038c64fa75"/>
+    <recordType typeId="8fe0bf0f-e14e-47ff-a177-10839898a58c" valueTypeId="c8f6d72c-54d0-4407-9242-beea9d6fedf3"/>
+    <recordManagerType typeId="61b85680-130d-4063-884a-fb1ca64bf5bf" valueTypeId="f84da83e-6eeb-4a11-a801-5559c55e1317"/>
+  </producedTypes>
+  <name>ВидыПродукцииПоГруппамПриказаВЕТИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды продукции по группам приказа ВетИС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="7ff59eca-7ac5-49f5-921a-c13a505895c9">
+    <name>ВидПродукцииНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид продукции наименование</value>
+    </synonym>
+    <type>
+      <types>DefinedType.СтрокаВЕТИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="de362d1f-a41f-4f85-8fc1-0ec46de4cec6">
+    <name>РольПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль пользователя</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РолиПользователейВЕТИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0e91adcd-4c05-4826-9819-7b3e5a0088c2">
+    <name>ГруппаПриказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа приказа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ГруппыПродукцииУполномоченныхЛиц</types>
+      <types>EnumRef.ГруппыПродукцииАттестованныхСпециалистов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c0149c83-c2b2-4cbe-b6d3-f4e5bde16235">
+    <name>ВидПродукцииИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид продукции идентификатор</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УникальныйИдентификаторВЕТИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

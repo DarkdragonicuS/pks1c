@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c59c63c-dd0a-441e-8645-30f6aaec2344">
+  <producedTypes>
+    <objectType typeId="bab43870-1780-4f06-be3d-cf26bfbf1ffc" valueTypeId="6dc4e430-f9cc-460a-9b1f-7116dc98979d"/>
+    <managerType typeId="4e8b5040-0594-4df2-a3f9-a133d226082c" valueTypeId="3434810e-c1bf-4e17-8c35-31a4a5922fac"/>
+  </producedTypes>
+  <name>РМБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место бухгалтера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РМБ.Form.Форма</defaultForm>
+  <forms uuid="ad8e43ed-a9be-4f43-a9a5-e1db18657ee3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0c475853-88b3-40a0-82d7-1f9dafdb8a20">
+    <name>МакетОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отчет</value>
+    </synonym>
+  </templates>
+  <templates uuid="23f37a9d-1b5f-4003-a133-60c7f08925b6">
+    <name>ОтчетОНесоответствующихСверхурочках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет о несоответствующих сверхурочках</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

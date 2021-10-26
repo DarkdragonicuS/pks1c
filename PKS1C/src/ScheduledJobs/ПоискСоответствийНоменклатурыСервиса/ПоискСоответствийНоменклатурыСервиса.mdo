@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85979241-fa42-441b-b99b-ccb0a252c87a">
+  <name>ПоискСоответствийНоменклатурыСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск соответствий номенклатуры сервиса</value>
+  </synonym>
+  <methodName>CommonModule.ТорговыеПредложенияСлужебный.ПоискСоответствийНоменклатурыСервисаОбработчикЗадания</methodName>
+  <key>ПоискСоответствийНоменклатурыСервиса</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

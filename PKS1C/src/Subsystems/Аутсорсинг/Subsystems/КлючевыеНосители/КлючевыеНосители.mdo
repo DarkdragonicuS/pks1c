@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40440eb6-41bb-4926-bfa2-eb8a65c4a737">
+  <name>КлючевыеНосители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключевые носители</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КлючевыеНосители</content>
+  <content>Document.СменаДатКлючевыхНосителей</content>
+  <content>Report.ОтчетДатКлючевыхНосителей</content>
+  <content>InformationRegister.ДатыКлючевыеНосители</content>
+  <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
+</mdclass:Subsystem>

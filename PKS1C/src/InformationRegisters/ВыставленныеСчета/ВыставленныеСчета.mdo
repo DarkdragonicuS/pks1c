@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc6836ea-5719-484d-a3fa-d95794599f61">
+  <producedTypes>
+    <selectionType typeId="881b7181-db69-43f2-b5dd-315a9f8b953d" valueTypeId="d8b84725-c099-4035-83a8-bea1f3524056"/>
+    <listType typeId="c8228046-0511-405f-b9a4-037515111373" valueTypeId="8411da19-c108-4a16-a380-9a26181d071d"/>
+    <managerType typeId="809a005e-a03d-47d5-80f0-0378ff4b3ef8" valueTypeId="a1476067-5654-48a8-bc7d-d80aa10e86aa"/>
+    <recordSetType typeId="27dfd079-3500-4479-9bc0-5de66eace8fe" valueTypeId="97b4ab58-f5f2-4771-94b4-da5299b28ff7"/>
+    <recordKeyType typeId="1e0f7297-0b92-41d7-a777-b30845849d65" valueTypeId="945bb91b-2296-4452-8079-5077bb991d9f"/>
+    <recordType typeId="69513bb8-3561-4183-ac1e-c1e2eba9b364" valueTypeId="e3213fe0-b5d6-4bb9-af12-b86c3dfdce2e"/>
+    <recordManagerType typeId="89bdbb28-719d-46fd-8ed0-131495018db9" valueTypeId="3a923874-9a53-4348-9b23-a6bd7d9f05de"/>
+  </producedTypes>
+  <name>ВыставленныеСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выставленные счета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f9a87912-33a0-4a80-9470-f0b155b7ece4">
+    <name>Выставлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выставлен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7c3b879a-ae0c-46fd-a53b-f5400f482fb1">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

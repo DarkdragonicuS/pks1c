@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a95c8fc2-d9bb-4397-88f6-2f89b6158a96">
+  <producedTypes>
+    <selectionType typeId="acce7a51-2081-45f6-80d0-87fe3ba68fdd" valueTypeId="c546315e-eb49-4301-af14-5bed99ba2fba"/>
+    <listType typeId="368eaa52-ff57-4f51-86fc-39ae9fee52a1" valueTypeId="528da993-39d0-464e-b3dc-5c811947f765"/>
+    <managerType typeId="9a3492b3-ae0e-4b4f-bef9-37155d328613" valueTypeId="dcc082a1-f499-4910-9d15-803c9420654a"/>
+    <recordSetType typeId="47de041b-f708-49a8-846a-7b736a865152" valueTypeId="903a4e3e-e98f-41bc-a22f-a64b3b4cd815"/>
+    <recordKeyType typeId="8a36f45b-88bd-472f-9947-2c4abd0a5c4f" valueTypeId="d56168d6-b635-42e6-bc5b-4e4142b08cae"/>
+    <recordType typeId="092ead4a-4c22-4974-8aa8-e1ede83e1f49" valueTypeId="3152f560-52b6-4022-860b-e91607af931c"/>
+    <recordManagerType typeId="afbc91d5-a7e2-4fd7-8348-f09242c3b9d6" valueTypeId="13e937e8-64dc-4550-ae9f-7359088a126f"/>
+  </producedTypes>
+  <name>НормаРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Норма работ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="37eec1b4-8c9a-4b24-8c2c-a7e6a9bb0e42">
+    <name>СуточнаяНорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суточная норма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="34c211d1-21a0-401a-8365-13ae33b1f2fc">
+    <name>МесячнаяНорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месячная норма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e9cd0b52-1975-4cae-b7d0-725be69cb14b">
+    <name>Работник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

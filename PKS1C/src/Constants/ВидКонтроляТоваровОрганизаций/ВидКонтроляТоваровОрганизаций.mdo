@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f315180-107b-41d1-90b4-f66e6ef2e0f6">
+  <producedTypes>
+    <managerType typeId="a01cb0ce-85dc-400a-a847-8105faea7ab8" valueTypeId="a937af69-1490-472d-9452-b316923f008c"/>
+    <valueManagerType typeId="9dc4df1e-3ba5-42bc-8df9-bcc6a8a5f4bb" valueTypeId="b37fca04-0af4-440b-ad1e-e0d22c8df8ee"/>
+    <valueKeyType typeId="50de3a4a-6ab5-5e76-9776-a1ee258cd3df" valueTypeId="3fb7caa2-8744-5009-9134-366a80ff8df5"/>
+  </producedTypes>
+  <name>ВидКонтроляТоваровОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид контроля товаров организаций</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Вид контроля остатков товаров организаций</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

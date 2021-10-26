@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edfee93b-7e08-4fe2-b6a5-d07cd9908348">
+  <producedTypes>
+    <objectType typeId="9f4a4fd1-56ad-4f7b-95ca-65e2f8bd62a4" valueTypeId="db863619-5035-4bf5-b0b8-8dbd12b47435"/>
+    <managerType typeId="879777ae-41d9-4d5e-8e6f-80e09cb5a2cf" valueTypeId="ffaea4f5-c57b-48d2-8056-1f44b85bf9a3"/>
+  </producedTypes>
+  <name>ТорговыеПредложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговые предложения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТорговыеПредложения.Form.ПоискПоОтборам</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="668865c0-9398-45b9-ad25-2282fee94feb">
+    <name>ВнешниеПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешние публикации торговых предложений</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6236315a-ec0a-4ad8-9946-2587a134a15b">
+    <name>ВыборРегионаПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор региона поиска</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7b07f071-1c31-4aa0-b44e-5cf3a601a9e1">
+    <name>ДеревоКатегорий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево категорий</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="78acdf03-e3c3-4afb-87e5-5067fc3d247a">
+    <name>Карточка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ed5b380f-e74a-429b-8833-ee7b2786bf79">
+    <name>НастройкаПоискаПоТоварам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка поиска по товарам</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e4bb8419-529f-4b2d-9eaa-b26f3229f612">
+    <name>ПодборРегионов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор регионов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8a3cc46f-9cea-4c16-974e-e067806bd648">
+    <name>Подсказка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подсказка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dfd4a8ea-a16e-45f5-ad59-2fc61f344a97">
+    <name>ПоискПоОтборам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск по отборам</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7edeeadd-f43b-4701-8dee-91890db91ea6">
+    <name>ПоискПоТоварам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск по товарам</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d463f3d0-6157-40c8-bd69-c40f8c184d39">
+    <name>ПомощникПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник публикации торговых предложений</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b5ef39b5-347e-40a3-bc9a-c585c097c0cb">
+    <name>ПросмотрЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр значений</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a9822a14-2bce-4478-b8cf-75a1e041b852">
+    <name>ПрофильАбонента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль абонента</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="10513db0-4cb2-40d6-bca4-93db28823c05">
+    <name>СопоставлениеЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление значений</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dbf072c9-edeb-4e53-8eee-1fbbcfc817f1">
+    <name>СопоставлениеНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление номенклатуры</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e11941f8-5589-48b2-9f64-ded5d3fa6b6f">
+    <name>СписокПубликаций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Публикуемые торговые предложения</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0dc62dc1-68f3-419f-adcc-57573e0e2476">
+    <name>ФормированиеЗаказов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формирование заказов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="12406b76-4eda-4ab7-b9b4-b267d8243f64">
+    <name>ПФ_MXL_КарточкаТорговогоПредложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка торгового предложения</value>
+    </synonym>
+  </templates>
+  <commands uuid="18d32970-e610-4943-a0b4-59eda1a2cb49">
+    <name>СопоставитьНоменклатуру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставить номенклатуру с 1С:Бизнес-сеть</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.БизнесСеть</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="4975768b-6b93-4662-affa-52f54b1d4ed3">
+    <name>ТорговыеПредложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Торговые предложения</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>DefinedType.УчастникЭДО</types>
+    </commandParameterType>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть торговые предложения 1С:Бизнес-сеть</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

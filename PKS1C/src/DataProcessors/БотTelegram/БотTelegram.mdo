@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8ebef8d-0159-4d8b-a48d-fd4915bc8640">
+  <producedTypes>
+    <objectType typeId="de90183d-5cb1-4ce3-bc96-2b4a186270ab" valueTypeId="ee43ad71-a60a-4532-ac23-6c63b253b17c"/>
+    <managerType typeId="68ee5ddc-9476-4985-afb8-3f807c2e533e" valueTypeId="b9b8cfe7-0003-4e5c-b7a3-c144f9fed10d"/>
+  </producedTypes>
+  <name>БотTelegram</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бот telegram</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.БотTelegram.Form.Форма</defaultForm>
+  <forms uuid="aeea8f48-9aec-496d-8fd5-d193b42a2eab">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

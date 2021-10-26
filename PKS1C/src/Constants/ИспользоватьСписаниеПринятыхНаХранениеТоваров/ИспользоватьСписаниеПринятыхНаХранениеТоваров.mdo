@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="519579c5-3b98-4fdf-88fe-0a484353a096">
+  <producedTypes>
+    <managerType typeId="dce1fd00-2d6c-4a90-a1a4-683fae817ac8" valueTypeId="a36deb02-376a-47cf-be23-2fe983fffb26"/>
+    <valueManagerType typeId="6fa2476a-2ad1-4896-b2ae-84ac7085e1f7" valueTypeId="613389a5-bf0d-4c41-a24d-a2a80e49845c"/>
+    <valueKeyType typeId="7c69e976-049e-50d6-acf3-fe9a422d1ef0" valueTypeId="b42d758c-4e89-58d5-9584-6650358fc44f"/>
+  </producedTypes>
+  <name>ИспользоватьСписаниеПринятыхНаХранениеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать списание принятых на хранение товаров</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

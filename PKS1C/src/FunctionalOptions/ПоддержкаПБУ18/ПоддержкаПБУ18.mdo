@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="736851b9-139f-45c7-9334-b65ac859b666">
+  <name>ПоддержкаПБУ18</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддержка ПБУ 18/02</value>
+  </synonym>
+  <location>InformationRegister.УчетнаяПолитикаОрганизаций.Resource.ПрименяетсяПБУ18</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ВводОстатков.TabularSection.Товары.Attribute.СуммаВР</content>
+  <content>Document.РаспределениеРасходовБудущихПериодов.TabularSection.РаспределениеРасходов.Attribute.ВременнаяРазница</content>
+  <content>Document.РаспределениеРасходовБудущихПериодов.Attribute.СуммаДокументаВР</content>
+  <content>Document.ПрочиеДоходыРасходы.TabularSection.ПрочиеРасходы.Attribute.ВременнаяРазница</content>
+  <content>Document.ПрочиеДоходыРасходы.TabularSection.ПрочиеДоходы.Attribute.ВременнаяРазница</content>
+  <content>Document.ВводОстатков.TabularSection.ПрочиеРасходы.Attribute.СуммаВР</content>
+  <content>Document.РаспределениеДоходовИРасходовПоНаправлениямДеятельности.TabularSection.Расходы.Attribute.ВременнаяРазница</content>
+</mdclass:FunctionalOption>

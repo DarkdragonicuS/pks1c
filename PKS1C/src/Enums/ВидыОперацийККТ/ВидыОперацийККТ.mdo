@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f3f3b38-bf8a-4c5a-90e3-61683fb560f7">
+  <producedTypes>
+    <refType typeId="bbe98f9f-a122-43af-a8fa-56fa7ea73c8f" valueTypeId="2a7be8ef-f7a2-44d8-b486-6300a625c584"/>
+    <listType typeId="a9cd86bc-6cf7-40f7-94b9-91c6458e4e8b" valueTypeId="49bb655d-103f-4c94-aafe-3c3b48b5c297"/>
+    <managerType typeId="4e178e5a-b124-4365-b308-236c00a88600" valueTypeId="6cf63be0-4526-4c65-a818-77b9cd4d832f"/>
+  </producedTypes>
+  <name>ВидыОперацийККТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций ККТ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1428ad38-b46d-4173-9e42-1dacfa358603">
+    <name>Регистрация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0926cc70-0a96-40d7-9f61-95129abaa597">
+    <name>Перерегистрация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перерегистрация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5069ad0-03cd-4b8c-8beb-3c455d9aa261">
+    <name>Закрытие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрытие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

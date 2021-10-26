@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a2322ad-7bae-40fa-b5f8-9a65628fdfe9">
+  <producedTypes>
+    <managerType typeId="881e6056-5acb-408b-be51-43a793c27553" valueTypeId="ae915745-4ef0-4b99-b2d9-a29a71ad3219"/>
+    <valueManagerType typeId="343132f3-5511-4d0e-8f5d-e9f86f28493b" valueTypeId="fce48020-d353-4a3f-8d4c-d77880cac43a"/>
+    <valueKeyType typeId="f2f5c1e0-b68a-413d-929f-08ac7c6f629c" valueTypeId="6fdb99b0-f1c9-479f-9a63-50a656996691"/>
+  </producedTypes>
+  <name>СверхурочкаКонец</name>
+  <synonym>
+    <key>ru</key>
+    <value>Окончание сверхурочных работ</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Time</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

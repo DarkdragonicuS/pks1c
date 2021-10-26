@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea9a1cdf-2d23-46d1-b1c1-1c5ef4e07eae">
+  <producedTypes>
+    <objectType typeId="688c1d80-7efb-4d40-bf38-fc96e48d9766" valueTypeId="a9ba2584-8eae-42f9-87ab-47dd9b5399c4"/>
+    <managerType typeId="78aa2748-7f3c-4f95-8b48-d0a7e7ed1f28" valueTypeId="13fc1480-f89a-4264-a6ae-e3d906091177"/>
+  </producedTypes>
+  <name>РезультатыТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты тестирования</value>
+  </synonym>
+  <comment>Выводит информацию о результатах тестирования, выполненного при помощи обработки тестирования конфигурации.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.РезультатыТестирования.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="07b0f8b7-aee1-43c0-a8d4-5387a47c3e36">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dc317d58-fede-4914-82fe-00c85ac46884">
+    <name>АдресХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес хранилища</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="dde67d15-9d33-41ae-a015-d506bcef5917">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="15f6a89d-53a1-47f7-967e-973c5966caf8">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

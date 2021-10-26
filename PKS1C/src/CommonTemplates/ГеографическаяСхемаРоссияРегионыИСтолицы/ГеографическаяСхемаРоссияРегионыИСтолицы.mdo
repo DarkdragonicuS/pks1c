@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14f33c04-0fe2-4bd6-870b-64e327af6bfe">
+  <name>ГеографическаяСхемаРоссияРегионыИСтолицы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Географическая схема россия регионы и столицы</value>
+  </synonym>
+  <templateType>GeographicalSchema</templateType>
+</mdclass:CommonTemplate>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bba886f-755a-4c47-a583-5173fd3ea12b">
+  <name>ПочасовыеРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Почасовые работы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ДневнойОтчетПочасовыхРабот</content>
+  <content>Document.ДоговорОбслуживания</content>
+  <content>Report.МесячныйОтчет</content>
+  <content>Report.ЗаработаноСотрудником</content>
+  <content>Report.ЗаработаноСотрудникомПочасовые</content>
+  <content>Report.ГрафикРаботОбщий</content>
+  <content>Report.ГрафикРаботРаботника</content>
+  <content>Report.ТабличныйМесячныйОтчет</content>
+  <content>Report.ЗаработаноЗаМесяц</content>
+  <content>DataProcessor.ОбновлениеДоговоров</content>
+  <content>InformationRegister.ПочасовыеРаботы</content>
+  <content>Report.ЗаработаноСотрудникомСверхурочка</content>
+  <content>Document.ЗаявкиКлиентов</content>
+  <content>InformationRegister.СтатусыЗаявок</content>
+  <content>InformationRegister.РаботыПоЗаявкам</content>
+  <content>Constant.СверхурочкаКонец</content>
+  <content>Constant.СверхурочкаНачало</content>
+  <content>CommonModule.АутсорсРаботы</content>
+  <content>Enum.СтатусыДоговоровОбслуживания</content>
+  <content>Report.КлиентыВЧерномСписке</content>
+  <content>DataProcessor.ГрафикДежурств</content>
+  <content>InformationRegister.ГрафикДежурств</content>
+  <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
+</mdclass:Subsystem>

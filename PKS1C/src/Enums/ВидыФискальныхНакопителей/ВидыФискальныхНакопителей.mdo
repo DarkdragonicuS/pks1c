@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06a72bdc-4692-421f-a620-4a7758ab5f5f">
+  <producedTypes>
+    <refType typeId="0ddd1453-3b43-41e0-bef1-2dcb0d053fe6" valueTypeId="be269971-294a-42b4-94d2-5c16c77b5518"/>
+    <listType typeId="9adf58d7-e3b6-48ed-aec6-f67d09f79331" valueTypeId="ee37aa59-c080-4aac-aba5-7268e4bb3760"/>
+    <managerType typeId="3c51c8ee-038b-4dd9-a2a2-d3236c9e52f8" valueTypeId="d6b0539a-9b86-4398-b23d-393ab8321b82"/>
+  </producedTypes>
+  <name>ВидыФискальныхНакопителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды фискальных накопителей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="266a1da0-8f10-4ddf-80eb-d8ad66d7e687">
+    <name>Месяцев15</name>
+    <synonym>
+      <key>ru</key>
+      <value>15 месяцев</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99c6d56a-cff6-4611-9b5e-6e8a88ce07a3">
+    <name>Месяцев36</name>
+    <synonym>
+      <key>ru</key>
+      <value>36 месяцев</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

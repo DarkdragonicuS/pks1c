@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d45dcd5-f069-4e0b-959a-d3eb873a3782">
+  <name>Бухгалтерия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерия</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.РМБ</content>
+  <content>InformationRegister.ВыставленныеСчета</content>
+  <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
+</mdclass:Subsystem>

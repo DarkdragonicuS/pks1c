@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcf1627f-2f11-40aa-bc71-3ecc2fa1d1d1">
+  <producedTypes>
+    <selectionType typeId="fdf87a5a-d005-40b6-abfe-3eb9592d1e9e" valueTypeId="beb5eccd-77bd-43aa-afaf-9dce0c0921bd"/>
+    <listType typeId="d1adc5f0-2206-4e44-b64a-3956949f63ba" valueTypeId="eb428fbf-25ce-4c3f-b373-18f6c9e6671f"/>
+    <managerType typeId="5bec1edd-692a-4f46-a2e7-22c195f21541" valueTypeId="f65c7867-884e-4799-be8e-98abd8e593db"/>
+    <recordSetType typeId="94f27ac0-4387-466c-bc6f-44f18ad99b89" valueTypeId="660adacc-f277-4935-91cf-c20951945812"/>
+    <recordKeyType typeId="fab49521-16df-450b-907d-9d352eee9b8e" valueTypeId="2d89a68e-5cf7-4680-b9d1-5990cacefa2a"/>
+    <recordType typeId="74651bfb-a9c2-4b6a-ab0b-6476d52acff8" valueTypeId="1a2cb971-3802-4f01-9afa-fca463c52b3d"/>
+    <recordManagerType typeId="f427bdf0-4851-4a84-add7-349e46a7ef5e" valueTypeId="9862167b-a844-4e95-8589-768a1beb751c"/>
+  </producedTypes>
+  <name>КарточкиРегистрацийККТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карточки регистраций ККТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e5d92ba2-caaf-4619-97be-6d17a00385b8">
+    <name>РН</name>
+    <synonym>
+      <key>ru</key>
+      <value>РН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="20fbefb8-2331-47d8-9350-8a9cd00aa05b">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыРегистрацииККТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="88ae1581-1ae6-4440-b904-8b8f112997af">
+    <name>ККТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ККТ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольноКассоваяТехника</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="33f0bd56-afcc-4438-b904-2961dae8f900">
+    <name>ФН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФН</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФискальныеНакопители</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

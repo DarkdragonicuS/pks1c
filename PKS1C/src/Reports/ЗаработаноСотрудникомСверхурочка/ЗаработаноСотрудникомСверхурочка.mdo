@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0cda56b-2488-41cd-9e98-0a7cdeded2cf">
+  <producedTypes>
+    <objectType typeId="2994633d-db3b-4eee-81a9-e3774a153a8e" valueTypeId="b9f97f44-6908-4979-8fa3-ec59e133b04e"/>
+    <managerType typeId="897faeea-d23d-40ac-abf4-c32bad1b1cda" valueTypeId="dc7de3fb-35e9-4bf4-a55d-19db1e8bc8a4"/>
+  </producedTypes>
+  <name>ЗаработаноСотрудникомСверхурочка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заработано сотрудником (Сверхурочные)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ЗаработаноСотрудникомСверхурочка.Form.ФормаОтчета</defaultForm>
+  <forms uuid="e6001d5e-b390-4f9c-9a4b-92d82864d944">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9ced60f5-cf8b-479f-9ccd-7b6427809fe5">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

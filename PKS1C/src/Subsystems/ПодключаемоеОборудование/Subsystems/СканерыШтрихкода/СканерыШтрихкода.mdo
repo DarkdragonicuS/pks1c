@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a36e780e-b76e-412f-9eaa-465c4c7cc5d4">
+  <name>СканерыШтрихкода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сканеры штрихкода</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonTemplate.Драйвер1СУстройстваВводаNative</content>
+  <content>CommonModule.ПодключаемоеОборудование1ССканерыШтрихкодаКлиент</content>
+  <content>b9d5b42d-94ba-4cb4-8c58-5a46f07c87e1</content>
+  <content>757a6b46-9ad4-4f41-8c53-7f4856376d86</content>
+  <content>CommonTemplate.Драйвер1ССканерШтрихкода</content>
+  <content>CommonTemplate.ДрайверАТОЛУстройстваВвода8X</content>
+  <content>CommonTemplate.ДрайверГексагонСканерШтрихкода</content>
+  <content>04877e77-377d-4c35-835b-2753211adb3d</content>
+  <content>CommonForm.ФормаНастройки1ССканерыШтрихкода</content>
+  <content>ffb55e1a-d5a4-4312-9583-58d8a8fe5f22</content>
+  <content>f8f4a594-8d59-49a2-9772-1a1e19c4f871</content>
+  <content>CommonPicture.ПодключаемоеОборудованиеСканерШтрихкода16</content>
+  <content>CommonPicture.ПодключаемоеОборудованиеСканерШтрихкода32</content>
+  <parentSubsystem>Subsystem.ПодключаемоеОборудование</parentSubsystem>
+</mdclass:Subsystem>

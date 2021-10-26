@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba2e8b79-57e6-4e55-98ed-583f5d89c109">
+  <producedTypes>
+    <objectType typeId="177d9806-15d2-4d4f-b9cd-4e90f177a0b6" valueTypeId="b9507bb5-5d53-40d0-96e4-6af9fb57b900"/>
+    <managerType typeId="c675a0ef-0e86-45d0-9e74-e0a3f928165d" valueTypeId="2a0aba80-39ac-4b83-9a9f-45a19cd7767c"/>
+  </producedTypes>
+  <name>КарточкаЛицензии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карточка лицензии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КарточкаЛицензии.Form.Форма</defaultForm>
+  <attributes uuid="7c0e4d23-d684-4bc8-abe9-952b259b074f">
+    <name>Серия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серийный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a6f34c23-4214-4e0a-bc50-da3028b41328">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрационный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="63f4034f-a7d9-44da-b0e3-214ea7bdd32a">
+    <name>КодАктивации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код активации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9f29d021-98e3-4eed-b824-5433a0aa5a90">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1409f25f-25b0-4d1c-bf05-c9327019f18b">
+    <name>ФормаПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1f97a526-854a-413a-8adb-a2908e8f4295">
+    <name>КарточкаЛицензии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка лицензии</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="942ddd28-a917-4e3d-ba68-726374c1ce8d">
+  <name>НастройкаИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка интеграции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ПанельАдминистрированияБИД</content>
+  <content>70a06a02-8fb8-4a39-9e50-b7c27c41f49f</content>
+  <content>CommonCommand.ВыгрузитьДанныеВЛокальнуюВерсию</content>
+  <content>CommonCommand.ВыгрузитьДанныеДляПереходаВСервис</content>
+  <content>CommonCommand.ЗагрузитьДанныеИзСервисаВЛокальнуюВерсию</content>
+  <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>DataProcessor.ПанельАдминистрированияЭДО</content>
+  <content>DataProcessor.ПанельАдминистрированияОбменаССайтом</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

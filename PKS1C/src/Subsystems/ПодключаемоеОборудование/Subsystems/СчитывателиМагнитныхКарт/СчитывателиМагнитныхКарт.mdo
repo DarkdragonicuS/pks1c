@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1805c9a7-7a99-4d69-9377-a7c3c4e2ffbb">
+  <name>СчитывателиМагнитныхКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Считыватели магнитных карт</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonTemplate.ДрайверIronLogicCсчитывателиZ2</content>
+  <content>136c5591-203d-4547-95e2-ccf4ede1204d</content>
+  <content>3ba23ed0-c9f8-43ae-b991-39e284d4dc5a</content>
+  <content>Catalog.ШаблоныМагнитныхКарт</content>
+  <content>CommonPicture.ПодключаемоеОборудованиеСчитывательМагнитныхКарт16</content>
+  <content>CommonPicture.ПодключаемоеОборудованиеСчитывательМагнитныхКарт32</content>
+  <content>CommonModule.ПодключаемоеОборудование1ССчитывателиМагнитныхКартКлиент</content>
+  <content>CommonForm.ФормаНастройки1ССчитывателиМагнитныхКарт</content>
+  <content>CommonTemplate.Драйвер1СУстройстваВводаNative</content>
+  <content>CommonTemplate.ДрайверАТОЛУстройстваВвода8X</content>
+  <parentSubsystem>Subsystem.ПодключаемоеОборудование</parentSubsystem>
+</mdclass:Subsystem>

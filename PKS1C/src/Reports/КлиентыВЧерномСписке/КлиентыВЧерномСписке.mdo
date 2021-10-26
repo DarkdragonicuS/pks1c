@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbf45470-8f11-40c6-9ddd-dedb80865fce">
+  <producedTypes>
+    <objectType typeId="8c847ac1-f992-4d54-b3be-9980d42aac10" valueTypeId="e638ebf7-bcc1-41ba-a3e5-479e90cc2057"/>
+    <managerType typeId="f8776028-b0de-4c8d-9030-ec13d587cfcf" valueTypeId="f37004c2-9bf1-4db0-94e4-b00b00c4e29b"/>
+  </producedTypes>
+  <name>КлиентыВЧерномСписке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Черный список</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КлиентыВЧерномСписке.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="f5d52eff-ad50-4340-a9f7-e91ec8c18949">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

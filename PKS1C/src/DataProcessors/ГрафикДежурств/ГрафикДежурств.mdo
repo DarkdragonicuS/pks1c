@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe71bb2e-3233-47b4-982d-5272bdec1499">
+  <producedTypes>
+    <objectType typeId="37a9b413-0f72-4fcd-b0d0-72e34d769c76" valueTypeId="d13a14b8-9e12-471d-8379-f592802ff37b"/>
+    <managerType typeId="bd16dffe-ab80-4a6f-a6fd-7a1205d71a43" valueTypeId="a2c36658-da9b-484f-aa2c-3a2aac05e587"/>
+  </producedTypes>
+  <name>ГрафикДежурств</name>
+  <synonym>
+    <key>ru</key>
+    <value>График дежурств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГрафикДежурств.Form.Форма</defaultForm>
+  <forms uuid="e671c5fe-d72f-476d-b60d-261daa897831">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e3f1c393-daf1-4b6a-8afd-5e6be87cd85e">
+    <name>ФормаИзмененияДежурного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения дежурного</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

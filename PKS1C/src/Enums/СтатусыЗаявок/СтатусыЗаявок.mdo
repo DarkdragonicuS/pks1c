@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1eb4905e-edff-491f-b23d-d4e46ba3a8f1">
+  <producedTypes>
+    <refType typeId="85e489f5-4f66-4ffe-94b7-db96a3720bf8" valueTypeId="81b4edd2-9bb6-4f07-98c4-85355d37738e"/>
+    <listType typeId="b97df794-9ee8-40ea-ad0a-e870fa17514f" valueTypeId="2859515e-2a0e-4022-8f0c-d7660eaba48d"/>
+    <managerType typeId="c9d20e5c-abb7-4f96-bb3d-2856ab7069f4" valueTypeId="75b0000a-946a-4ada-9b30-7eeb409ec7b9"/>
+  </producedTypes>
+  <name>СтатусыЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="10a8f981-03e5-43a6-85c5-795df0aacf99">
+    <name>Открыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="607f56a6-7225-440b-91b4-99b50da638ee">
+    <name>Закрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9eaf0ae-d27a-4b76-bf8e-54c210e04880">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54b3322a-9916-4bac-98be-c801d40738d0">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

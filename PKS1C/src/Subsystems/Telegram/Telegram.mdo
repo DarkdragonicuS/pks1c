@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa123046-698e-4728-80ac-e51e6958534b">
+  <name>Telegram</name>
+  <synonym>
+    <key>ru</key>
+    <value>Telegram</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделTelegram</picture>
+  </picture>
+  <content>DataProcessor.БотTelegram</content>
+  <content>Constant.ТокенTelegram</content>
+  <content>CommonModule.ВзаимодействиеСTelegramСервер</content>
+  <content>InformationRegister.ЛогTelegram</content>
+  <content>Constant.ИДСообщенияTelegram</content>
+  <content>Constant.ПользовательБотTelegram</content>
+  <content>InformationRegister.ПользователиБотаTelegram</content>
+  <content>InformationRegister.РасшифровкаКомандTelegram</content>
+</mdclass:Subsystem>

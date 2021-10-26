@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33dabcc2-8a40-423e-a12a-3467e6b8175b">
+  <name>ОбменДаннымиОбменУправлениеТорговлей_11_0_РозничнаяТорговля_1_0ЗарегистрироватьУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными обмен управление торговлей 11.0 розничная торговля 1.0 зарегистрировать удаление</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.СтраныМира</types>
+    <types>DocumentObject.АннулированиеПодарочныхСертификатов</types>
+    <types>DocumentObject.ВозвратТоваровОтКлиента</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+    <types>CatalogObject.ВидыПодарочныхСертификатов</types>
+    <types>DocumentObject.ЗаказНаПеремещение</types>
+    <types>CatalogObject.ВидыКартЛояльности</types>
+    <types>CatalogObject.Кассы</types>
+    <types>CatalogObject.ПодарочныеСертификаты</types>
+    <types>DocumentObject.СписаниеНедостачТоваров</types>
+    <types>CatalogObject.Склады</types>
+    <types>CatalogObject.УпаковкиЕдиницыИзмерения</types>
+    <types>CatalogObject.Пользователи</types>
+    <types>DocumentObject.РасходныйКассовыйОрдер</types>
+    <types>CatalogObject.ХарактеристикиНоменклатуры</types>
+    <types>CatalogObject.КартыЛояльности</types>
+    <types>DocumentObject.РасчетСебестоимостиТоваров</types>
+    <types>CatalogObject.ФизическиеЛица</types>
+    <types>CatalogObject.КассыККМ</types>
+    <types>CatalogObject.ВидыЦен</types>
+    <types>DocumentObject.ПриходныйКассовыйОрдер</types>
+    <types>CatalogObject.ВидыНоменклатуры</types>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения</types>
+    <types>DocumentObject.ОприходованиеИзлишковТоваров</types>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+    <types>CatalogObject.ВидыКонтактнойИнформации</types>
+    <types>CatalogObject.ЗначенияСвойствОбъектов</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.ЭквайринговыеТерминалы</types>
+    <types>DocumentObject.УстановкаЦенНоменклатуры</types>
+    <types>DocumentObject.ПриобретениеТоваровУслуг</types>
+    <types>DocumentObject.СборкаТоваров</types>
+    <types>CatalogObject.ВариантыКомплектацииНоменклатуры</types>
+    <types>CatalogObject.Контрагенты</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ОбменДаннымиСобытияУТУП.ОбменДаннымиОбменУправлениеТорговлей_11_0_РозничнаяТорговля_1_0ПередУдалением</handler>
+</mdclass:EventSubscription>

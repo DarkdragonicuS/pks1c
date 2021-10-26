@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de70db9a-785c-40d0-9e32-6836f2b270b8">
+  <name>Кассы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.МоделиККТ</content>
+  <content>Catalog.ОператорыФискальныхДанных</content>
+  <content>Document.РегистрацияККТ</content>
+  <content>Enum.ВидыФискальныхНакопителей</content>
+  <content>Catalog.МоделиФискальныхНакопителей</content>
+  <content>Report.ОтчетДатФискальныхНакопителей</content>
+  <content>Enum.ВидыОперацийККТ</content>
+  <content>InformationRegister.ДатыФН</content>
+  <content>Catalog.КонтрольноКассоваяТехника</content>
+  <content>Catalog.ФискальныеНакопители</content>
+  <content>InformationRegister.КарточкиРегистрацийККТ</content>
+  <content>Enum.СтатусыРегистрацииККТ</content>
+  <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
+</mdclass:Subsystem>

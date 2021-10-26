@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbed1a0a-e4ab-4de5-a317-1aef0b7743d9">
+  <producedTypes>
+    <selectionType typeId="c4aff187-1da0-4ca2-b3f3-7420d56b878e" valueTypeId="80c75914-89ee-4897-8922-2ede66f233ec"/>
+    <listType typeId="a08fdaa4-87a1-4551-b6e3-b94d4157e416" valueTypeId="bcd95064-5164-4788-b53b-6d2e8b5946c8"/>
+    <managerType typeId="f60b1c94-1a90-479e-82ba-ea487066cab5" valueTypeId="2862486f-5063-4019-adcd-a458550c3452"/>
+    <recordSetType typeId="3649a9ed-5d6f-40d4-b4fb-69f06931f4fd" valueTypeId="f34757df-352a-47e9-a4ec-3cbff5e2f7bf"/>
+    <recordKeyType typeId="d23685f2-aad1-4930-aff5-c869dc166a27" valueTypeId="5dfd4da4-feee-43fc-99ee-461ca7081b6b"/>
+    <recordType typeId="4a7e88a8-396e-484e-b708-1793afc6867e" valueTypeId="b38f45bf-d269-40f3-9529-d01d408520ed"/>
+    <recordManagerType typeId="881a827f-e654-4672-a791-bb435673b2c6" valueTypeId="b9c8a834-82e3-4709-87b3-4be47ea56e14"/>
+  </producedTypes>
+  <name>ДатыФН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты ФН</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b85724d4-2030-4e12-9da8-fe9630882fd7">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2305106b-f99b-4834-9d4c-65ac1e08aead">
+    <name>СрокДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="53c6dd19-3ced-40a1-8147-ae5632b3d9ac">
+    <name>ФискальныйНакопитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фискальный накопитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФискальныеНакопители</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

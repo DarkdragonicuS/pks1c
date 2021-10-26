@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7e681f5-b63a-4e4b-b95d-8f566d4f47d4">
+  <producedTypes>
+    <managerType typeId="0cdd3b77-6d8d-4c43-937d-312dcc36baf2" valueTypeId="34ff3cf4-a938-402b-82b9-aef5f9897506"/>
+    <valueManagerType typeId="5b5351b2-84ad-41c1-b74d-9fb8656fded5" valueTypeId="88ca76cf-ca7a-43b5-b14a-1f591c708780"/>
+    <valueKeyType typeId="5ab9d884-eacc-553e-8658-15e9ab3424eb" valueTypeId="fcf27855-62ee-510d-b37f-ce92e8614ba3"/>
+  </producedTypes>
+  <name>ДатаНачалаПримененияПостановления1137</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата начала применения постановления Правительства РФ №1137</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillChecking>ShowError</fillChecking>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

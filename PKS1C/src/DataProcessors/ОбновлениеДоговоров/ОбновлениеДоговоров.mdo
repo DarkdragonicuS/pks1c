@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31b120bf-6027-4bb6-b3f6-9b69b8e440d4">
+  <producedTypes>
+    <objectType typeId="52cb9c42-de86-48e8-b6e1-9ad4785d0378" valueTypeId="66cf4f02-bf99-4907-b2b8-0ec6c774ccfe"/>
+    <managerType typeId="ee57068e-4500-4b38-bf8a-d99ef6b05d98" valueTypeId="4d96dc8c-76bd-4e10-90e9-2d8811aff06f"/>
+  </producedTypes>
+  <name>ОбновлениеДоговоров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление договоров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбновлениеДоговоров.Form.Форма</defaultForm>
+  <forms uuid="0e75134d-9142-44f5-9e33-a25a56aa8187">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="51c525e1-e829-47ac-96f2-26a5aa57f6fc">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f1781ed-cbb5-4a15-8110-4798597bf6aa">
+  <producedTypes>
+    <selectionType typeId="231a95ba-fd4e-4b08-9374-3bbdd552ae40" valueTypeId="8826efc3-c7d9-4d1f-972b-2a0d0dab6713"/>
+    <listType typeId="ccd6ebe1-5a80-421e-987e-496de5ad156e" valueTypeId="3640ac19-397c-45eb-93a5-380ed7f8ad70"/>
+    <managerType typeId="33dd80aa-e7c0-4b9b-b779-c8463d9d5532" valueTypeId="56f737cd-c393-4dea-bd71-3b64be672a1e"/>
+    <recordSetType typeId="03a072d1-d51f-4583-a471-29cfe6c24e76" valueTypeId="88002e5a-a389-48b7-8f46-2fb954f88a1c"/>
+    <recordKeyType typeId="4fd4e903-c416-4a94-aadb-ed2e830e8a1d" valueTypeId="83998bec-c0f2-4e2b-8ece-ca026a3f35e3"/>
+    <recordType typeId="e94549fa-72f9-481a-96da-560bfe4fb01b" valueTypeId="bab92a08-35a2-4652-9cd8-f67223313e09"/>
+    <recordManagerType typeId="ea7cfd2c-db65-4c46-ab34-70ad9a3ef8da" valueTypeId="a8922fc7-8185-4d52-a2b9-8e90843fa6fd"/>
+  </producedTypes>
+  <name>РасшифровкаКомандTelegram</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расшифровка команд Telegram</value>
+  </synonym>
+  <comment>Соответствие хэш-суммы, помещенной в callback_query, с командой и её параметрами</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Т.к. для callback_query в Telegram установлено ограничение в 64 байта, а также ради защиты, в callback_query помещается хэш-сумма команды с параметрами, а здесь помещается расшифровка</value>
+  </explanation>
+  <resources uuid="f8d13673-4c57-4698-9381-e98650472faa">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="d64528f7-4ce6-4ad6-b9f5-13605169f667">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="06553f2a-203e-4483-9105-9f642f085672">
+    <name>Хэш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>                                    </value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9ea984e3-0cca-45d0-9e8c-681188dea936">
+    <name>ДатаФормирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата формирования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

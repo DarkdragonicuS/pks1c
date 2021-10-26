@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a60aaba5-4959-49be-b10d-d115aa3ec58d">
+  <name>РазделTelegram</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел telegram</value>
+  </synonym>
+</mdclass:CommonPicture>

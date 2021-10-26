@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fbe9cfe-5499-4d26-80b9-771b10bff45a">
+  <producedTypes>
+    <managerType typeId="a1ab9685-9914-467c-a91b-0640de0cb13d" valueTypeId="6b69a819-d418-409d-b7a9-d007488d1377"/>
+    <valueManagerType typeId="4a448bcd-de3f-42fe-a23d-debb3db4614f" valueTypeId="6c412a69-9640-4a68-92e5-1cb0c3fd0530"/>
+    <valueKeyType typeId="cb89026c-69c2-4993-ad4c-f6ea1c8559b4" valueTypeId="ae295ec8-2330-4358-94e6-335af0107dee"/>
+  </producedTypes>
+  <name>ПользовательБотTelegram</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователь бот telegram</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

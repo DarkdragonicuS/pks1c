@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53b24c98-1b7b-445d-aacd-579d0bfe0744">
+  <producedTypes>
+    <selectionType typeId="d5f935a9-afb6-45db-9bcf-a299b196f2ba" valueTypeId="e1d3da34-5d90-4e73-a651-e41a06c7fea1"/>
+    <listType typeId="5920bc51-260d-48d7-af78-5a3f5f203672" valueTypeId="44b1ff7a-0bdb-4c82-b458-8127d2ab866c"/>
+    <managerType typeId="d2d02424-64e9-4def-ba78-161da84ae105" valueTypeId="5d318d04-dc8e-48bc-a1fc-09e84be1b0e1"/>
+    <recordSetType typeId="687dbf1f-afe8-4a96-ab9b-34d576074ae1" valueTypeId="9b469a03-2399-41a2-9fd3-c7762596821b"/>
+    <recordKeyType typeId="ea6c0f56-821b-47e2-9879-d6f25762ae76" valueTypeId="2795c513-6b5d-4800-a24c-667057c30132"/>
+    <recordType typeId="4a614a2a-00de-4dc9-82c1-63c4513d9ed8" valueTypeId="8385c8a3-7047-4b90-b234-ff7cec54e5b9"/>
+    <recordManagerType typeId="88899b71-f06c-4604-90d0-a30c695f4834" valueTypeId="50ab220c-b6e3-42fc-9cd1-28f41ae3978e"/>
+  </producedTypes>
+  <name>ДоговораОбслуживания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договора обслуживания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4e6bd0da-b83c-4917-9d4a-5cf7104ebb91">
+    <name>АбонентскаяПлата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абонентская плата</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f8fb4edc-3b56-48bc-a2bd-1e32dcdb4243">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="aeed5f1e-85ad-4c06-85f3-c174e3b4a91f">
+    <name>ТарифСверхурочный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф сверхурочный</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bdb3b0fb-b807-4d1a-bd81-64a49a917c26">
+    <name>СрокДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="4c443391-bf68-4d8c-a878-ba0676d493b8">
+    <name>ЧерныйСписок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черный список</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="2ae57d05-b9af-4701-a358-a005bcee750b">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

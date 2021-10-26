@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42582523-c85e-46f5-9520-613c64ac9a86">
+  <name>СервисныйРемонт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделСервис</picture>
+  </picture>
+  <content>Document.ЗаявкаНаРемонт</content>
+  <content>Enum.СтатусыЗаявки</content>
+  <content>Catalog.ВидыОплаты</content>
+  <content>InformationRegister.ИзмененияСтатусовЗаявок</content>
+</mdclass:Subsystem>

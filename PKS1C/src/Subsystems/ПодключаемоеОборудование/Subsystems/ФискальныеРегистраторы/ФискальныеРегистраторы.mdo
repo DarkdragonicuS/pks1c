@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36e9ecb9-6cbf-4ece-9408-632f3ba6c341">
+  <name>ФискальныеРегистраторы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фискальные регистраторы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonCommand.УправлениеФискальнымУстройством</content>
+  <content>76629e70-9ecd-4c94-9acf-aef2af2a2963</content>
+  <content>56f8dd2d-d359-4ff9-a9ba-0cfd2b9015d2</content>
+  <content>CommonTemplate.ДрайверАТОЛФискальныеРегистраторы8X</content>
+  <content>CommonTemplate.ДрайверККСФискальныеРегистраторы</content>
+  <content>CommonTemplate.ДрайверШтрихМФискальныеРегистраторы</content>
+  <content>a8e8aea7-9fa4-4b75-bda3-57cc7a2ef2e7</content>
+  <content>8800a98d-eb56-48b4-8b21-85cf0e2d9b59</content>
+  <content>a7bacace-f735-4f74-b8a9-686e1451996b</content>
+  <content>5ffff00f-ef0d-4ff9-8a6b-565787e31d8a</content>
+  <content>632e1e96-e911-4430-a104-798431b721c0</content>
+  <content>0f184dcf-16bd-4ab9-9ef0-34fdb997ff91</content>
+  <content>bf62c112-92eb-401d-a2ea-b504921736af</content>
+  <content>e5d02ba2-3bb3-45bb-b9b1-c350aa0f1cc1</content>
+  <content>d76e6957-ba5a-41dc-adc6-0c21b0960662</content>
+  <content>CommonTemplate.ДрайверДримкасФискальныеРегистраторыVikiPrint</content>
+  <content>CommonTemplate.ДрайверКристаллСервисФискальныеРегистраторыPirit</content>
+  <content>CommonTemplate.Драйвер1СРарусФискальныеРегистраторыМебиус</content>
+  <content>CommonTemplate.Драйвер1СРарусФискальныеРегистраторыФеликс</content>
+  <content>CommonPicture.ПодключаемоеОборудованиеФискальныйРегистратор16</content>
+  <content>CommonPicture.ПодключаемоеОборудованиеФискальныйРегистратор32</content>
+  <content>CommonTemplate.ДрайверИскраФискальныеРегистраторыПрим</content>
+  <content>Document.КассоваяСмена</content>
+  <content>CommonModule.КассовыеСменыВызовСервера</content>
+  <content>CommonModule.КассовыеСменыКлиентПереопределяемый</content>
+  <content>CommonModule.КассовыеСменыПереопределяемый</content>
+  <content>InformationRegister.НумерацияЧековККТ</content>
+  <content>CommonModule.ФорматноЛогическийКонтрольВызовСервера</content>
+  <content>CommonModule.ФорматноЛогическийКонтрольКлиентСервер</content>
+  <content>CommonModule.ФорматноЛогическийКонтрольКлиентСерверПереопределяемый</content>
+  <parentSubsystem>Subsystem.ПодключаемоеОборудование</parentSubsystem>
+</mdclass:Subsystem>

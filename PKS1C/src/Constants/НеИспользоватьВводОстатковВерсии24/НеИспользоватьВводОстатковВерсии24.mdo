@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc6245f0-7e9e-4dc9-a53c-0e94f3aa7545">
+  <producedTypes>
+    <managerType typeId="d8260fac-401b-4a68-9bff-c2d30f0fcc7d" valueTypeId="f0f0605d-7ed5-4fc5-b956-2f1bf13f7235"/>
+    <valueManagerType typeId="9013f98f-71b4-4a4c-aebe-b27ff9cf1e9a" valueTypeId="f1060df4-40d3-40a5-a8c4-e388c88e2484"/>
+    <valueKeyType typeId="ec8833b9-063e-5baa-bb1e-1e5cd45d4008" valueTypeId="e9cd9442-8201-53cc-9017-55a088a0393b"/>
+  </producedTypes>
+  <name>НеИспользоватьВводОстатковВерсии24</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не использовать ввод остатков версии 2.4</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5b19ff6-62ce-4f3b-8760-0ce9edd34563">
+  <name>ИнтеграцияС1СДокументооборотОбработкаЗаполненияСправочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с 1С:Документооборот: Обработка заполнения - Справочники</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.БанковскиеСчетаКонтрагентов</types>
+    <types>CatalogObject.БанковскиеСчетаОрганизаций</types>
+    <types>CatalogObject.КонтактныеЛицаПартнеров</types>
+    <types>CatalogObject.Кассы</types>
+    <types>CatalogObject.ОбластиХранения</types>
+    <types>CatalogObject.ПретензииКлиентов</types>
+    <types>CatalogObject.Проекты</types>
+    <types>CatalogObject.Пользователи</types>
+    <types>CatalogObject.ДоговорыКонтрагентов</types>
+    <types>CatalogObject.КартыЛояльности</types>
+    <types>CatalogObject.ФизическиеЛица</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.КассыККМ</types>
+    <types>CatalogObject.Партнеры</types>
+    <types>CatalogObject.СтруктураПредприятия</types>
+    <types>CatalogObject.СоглашенияСКлиентами</types>
+    <types>CatalogObject.СтруктураЦелей</types>
+    <types>CatalogObject.ЗадачиПроектов</types>
+    <types>CatalogObject.ВнешниеПользователи</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.ЭквайринговыеТерминалы</types>
+    <types>CatalogObject.ДоговорыКредитовИДепозитов</types>
+    <types>CatalogObject.СделкиСКлиентами</types>
+    <types>CatalogObject.СоглашенияСПоставщиками</types>
+    <types>CatalogObject.НоменклатураПоставщиков</types>
+    <types>CatalogObject.Контрагенты</types>
+    <types>CatalogObject.МаркетинговыеМероприятия</types>
+  </source>
+  <event>Filling</event>
+  <handler>CommonModule.ИнтеграцияС1СДокументооборот.ОбработкаЗаполненияСправочники</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6ada17a-25a8-4aba-a73d-f353e1efbac4">
+  <name>ПриЗаписиКонстанты</name>
+  <synonym>
+    <key>ru</key>
+    <value>При записи константы</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.НастройкиСистемы.ПриЗаписиКонстанты</handler>
+</mdclass:EventSubscription>

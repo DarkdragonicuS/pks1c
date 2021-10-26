@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33aa1a4f-11a1-4609-aef2-9bd6df081cd6">
+  <name>ОбменДаннымиОбменУправлениеТорговлей_11_0_РозничнаяТорговля_1_0ЗарегистрироватьИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными обмен управление торговлей 11.0 розничная торговля 1.0 зарегистрировать изменение</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.СтраныМира</types>
+    <types>CatalogObject.ВидыПодарочныхСертификатов</types>
+    <types>CatalogObject.ВидыКартЛояльности</types>
+    <types>CatalogObject.Кассы</types>
+    <types>CatalogObject.ПодарочныеСертификаты</types>
+    <types>CatalogObject.Склады</types>
+    <types>CatalogObject.УпаковкиЕдиницыИзмерения</types>
+    <types>CatalogObject.Пользователи</types>
+    <types>CatalogObject.ХарактеристикиНоменклатуры</types>
+    <types>CatalogObject.КартыЛояльности</types>
+    <types>CatalogObject.ФизическиеЛица</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.КассыККМ</types>
+    <types>CatalogObject.ВидыЦен</types>
+    <types>CatalogObject.ВидыНоменклатуры</types>
+    <types>ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения</types>
+    <types>CatalogObject.ВидыКонтактнойИнформации</types>
+    <types>CatalogObject.ЗначенияСвойствОбъектов</types>
+    <types>CatalogObject.НаборыДополнительныхРеквизитовИСведений</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.ЭквайринговыеТерминалы</types>
+    <types>CatalogObject.ВариантыКомплектацииНоменклатуры</types>
+    <types>CatalogObject.Контрагенты</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияУТУП.ОбменДаннымиОбменУправлениеТорговлей_11_0_РозничнаяТорговля_1_0ПередЗаписью</handler>
+</mdclass:EventSubscription>

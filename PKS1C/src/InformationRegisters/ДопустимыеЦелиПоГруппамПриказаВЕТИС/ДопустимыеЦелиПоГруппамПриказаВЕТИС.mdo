@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fee939d8-43bf-4184-b0f8-cba3314f421e">
+  <producedTypes>
+    <selectionType typeId="bf765d33-1fdf-4e7b-befa-894ad0396aa4" valueTypeId="09e0856f-026d-4687-8415-05a3b89ad6f5"/>
+    <listType typeId="8a25433c-e9a4-407f-a41f-b07c0d12dfa3" valueTypeId="36625e68-d5a6-4945-a5a0-815bae7c7012"/>
+    <managerType typeId="8c6e2481-7d9c-4576-9745-4a7a5604630a" valueTypeId="d52edc47-ea07-4a26-96e5-f7bc0897acf6"/>
+    <recordSetType typeId="a0fd96cf-f57d-47a4-87aa-da430908f67d" valueTypeId="cdfe4ed8-fec6-475a-89ca-ac1109bd5eda"/>
+    <recordKeyType typeId="5ed7cf9b-706f-42e0-b2f7-4394ada085c6" valueTypeId="4afb5ebe-1b71-49fc-8160-ca5abf9e4100"/>
+    <recordType typeId="39e89d4e-2d77-40c6-ac1d-6be72d660abf" valueTypeId="95dc76d3-5b24-4595-9dfa-bf8c6f2a093e"/>
+    <recordManagerType typeId="ee8223be-680e-4960-92ab-ba8d96f45119" valueTypeId="40d87b03-0c66-4609-9659-7a0e460cb086"/>
+  </producedTypes>
+  <name>ДопустимыеЦелиПоГруппамПриказаВЕТИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Допустимые цели по группам приказа ВетИС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="d9363f40-7f2f-4a53-aa8b-be7cea8b9ffe">
+    <name>ЦельНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цель наименование</value>
+    </synonym>
+    <type>
+      <types>DefinedType.СтрокаВЕТИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="bdf9eb7f-624d-4a2f-b235-6c81a139c297">
+    <name>ГруппаПриказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа приказа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ГруппыПродукцииУполномоченныхЛиц</types>
+      <types>EnumRef.ГруппыПродукцииАттестованныхСпециалистов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="103dce43-3407-4448-bde4-6e6eb612d5fe">
+    <name>ЦельИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цель идентификатор</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УникальныйИдентификаторВЕТИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

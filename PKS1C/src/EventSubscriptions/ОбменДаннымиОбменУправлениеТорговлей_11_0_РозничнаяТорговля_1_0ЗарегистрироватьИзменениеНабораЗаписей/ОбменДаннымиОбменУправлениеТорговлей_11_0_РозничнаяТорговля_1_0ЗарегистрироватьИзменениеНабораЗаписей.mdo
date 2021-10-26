@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13f73de1-78ce-445a-9cf1-6bba093fb473">
+  <name>ОбменДаннымиОбменУправлениеТорговлей_11_0_РозничнаяТорговля_1_0ЗарегистрироватьИзменениеНабораЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными обмен управление торговлей 11.0 розничная торговля 1.0 зарегистрировать изменение набора записей</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ШтрихкодыНоменклатуры</types>
+    <types>InformationRegisterRecordSet.ДокументыФизическихЛиц</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияУТУП.ОбменДаннымиОбменУправлениеТорговлей_11_0_РозничнаяТорговля_1_0ПередЗаписьюРегистра</handler>
+</mdclass:EventSubscription>

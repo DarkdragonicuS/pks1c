@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b92ad37-b4ce-4e8e-897d-918dc28f0752">
+  <producedTypes>
+    <managerType typeId="dd5b9c77-644c-4ce3-99cc-768b123ab5c0" valueTypeId="80759786-658d-4e1d-9041-76c8cf71ffad"/>
+    <valueManagerType typeId="d6e33aa5-20c4-4615-a62d-8094c660fced" valueTypeId="877a5dd9-4173-4cf6-b358-8096b16c02e7"/>
+    <valueKeyType typeId="312258c2-b99b-4e4c-b23c-5401800b88e9" valueTypeId="cb97d214-269a-410b-af3e-3723d8848186"/>
+  </producedTypes>
+  <name>СтрогийУчетЛицензий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Строгий учет лицензий</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

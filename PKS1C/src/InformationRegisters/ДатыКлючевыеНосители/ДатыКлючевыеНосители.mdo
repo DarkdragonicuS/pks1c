@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08f4df70-98be-4658-924f-9224be00f686">
+  <producedTypes>
+    <selectionType typeId="5ad2ea5e-8096-49a1-875f-eec9d647f84b" valueTypeId="d8f3a378-673a-442b-89d0-d0ff4a2c07e0"/>
+    <listType typeId="f911007b-22bc-46e4-8790-e300a400c58c" valueTypeId="9b3618df-21db-4734-95b6-e3420ee51264"/>
+    <managerType typeId="66a29352-4355-41da-8697-cd9f0c164e2d" valueTypeId="14c42419-ec46-48d9-9492-4a2beac47648"/>
+    <recordSetType typeId="48a5f759-ccce-4837-986f-1de7b7cb5072" valueTypeId="6afa421e-9c83-4352-b782-468e9b747c52"/>
+    <recordKeyType typeId="bc43c17a-66f7-4267-85d9-2a14228cdd6a" valueTypeId="17b09021-bdd7-4086-895c-0cf391b7edf7"/>
+    <recordType typeId="a24603bd-6d3d-40a1-b73d-446759859e42" valueTypeId="df593400-8514-478b-8bb2-fe88d6a34a7d"/>
+    <recordManagerType typeId="f6df06fe-9743-459d-90ce-b6fb55bf6dd7" valueTypeId="aa870310-d23d-4317-b47d-1e3ed93b72be"/>
+  </producedTypes>
+  <name>ДатыКлючевыеНосители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты ключевые носители</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="15f1f605-ff4f-45c6-8524-e9814a402b22">
+    <name>RSAС</name>
+    <synonym>
+      <key>ru</key>
+      <value>RSA c</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="db55e83f-cfcc-4eac-88b8-7a5485443a2f">
+    <name>RSAДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>RSA до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9dbdb84b-8fdf-49da-8bdf-5c8cad424373">
+    <name>ГОСТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГОСТ с</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1cd3efe5-4d31-4b27-99f0-7f285049ad2c">
+    <name>ГОСТДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГОСТ до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ee6d4fab-c2b7-43d9-adf6-ca21c20544eb">
+    <name>КлючевойНоситель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевой носитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючевыеНосители</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

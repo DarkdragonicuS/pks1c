@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="715baab7-048c-4412-9ca2-1dd48d944218">
+  <producedTypes>
+    <refType typeId="424141f5-cbc4-42c6-99c7-14a108d80dc1" valueTypeId="a47e8c0d-7f27-490e-b182-efc80d1c2b7d"/>
+    <listType typeId="1ee14611-5dbf-4d5a-a850-2d8d7534ef58" valueTypeId="c953579e-d395-492a-927c-a3a5122945d5"/>
+    <managerType typeId="e588f628-d8e2-42cd-a437-fa4bd84e21c3" valueTypeId="9cf356b5-4bf9-4a47-8c3b-342b8d8920fb"/>
+  </producedTypes>
+  <name>ТипыЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы заявок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="adc26377-4b3d-4b1b-b78b-79b00fa5ee81">
+    <name>НастройкаПО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка ПО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d8e753b2-1bc4-462e-aab3-200ebdd98b22">
+    <name>УстановкаОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>УстановкаОборудования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6f30c13b-f23b-401b-b7da-025f0a8f45eb">
+    <name>Консультация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Консультация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e620d96-4b7f-4499-bea1-e6d43df89886">
+    <name>РасчетСтоимостиПОИОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет стоимости ПО и оборудования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06ccf8a5-e5e1-4511-b992-061f74050fd2">
+    <name>Выезд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выезд</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="85712079-66f2-4226-a47d-05b12326d799">
+    <name>УдаленнаяНастройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаленная настройка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57c6b059-172b-46ec-851a-977a757e3654">
+    <name>Разработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разработка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
