@@ -3620,6 +3620,8 @@
   <commonModules>CommonModule.АутсорсЛицензииВызовСервера</commonModules>
   <commonModules>CommonModule.ВзаимодействиеСTelegramСервер</commonModules>
   <commonModules>CommonModule.АутсорсРаботы</commonModules>
+  <commonModules>CommonModule.АутсорсПодключенияКлиент</commonModules>
+  <commonModules>CommonModule.АутсорсПодключенияСервер</commonModules>
   <commonAttributes>CommonAttribute.ОбластьДанныхВспомогательныеДанные</commonAttributes>
   <commonAttributes>CommonAttribute.ОбластьДанныхОсновныеДанные</commonAttributes>
   <exchangePlans>ExchangePlan.ИнтеграцияС1СДокументооборотом</exchangePlans>
@@ -6417,6 +6419,8 @@
   <catalogs>Catalog.КонтрольноКассоваяТехника</catalogs>
   <catalogs>Catalog.ФискальныеНакопители</catalogs>
   <catalogs>Catalog.ВидыОплаты</catalogs>
+  <catalogs>Catalog.Подключения</catalogs>
+  <catalogs>Catalog.ВидыПодключений</catalogs>
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.АктВыполненныхРабот</documents>
   <documents>Document.АктОРасхожденияхПослеОтгрузки</documents>
@@ -7219,6 +7223,7 @@
   <enums>Enum.СтатусыЗаявки</enums>
   <enums>Enum.СтатусыРегистрацииККТ</enums>
   <enums>Enum.СтатусыДоговоровОбслуживания</enums>
+  <enums>Enum.ТипыПодключений</enums>
   <reports>Report.ABCXYZАнализНоменклатуры</reports>
   <reports>Report.ABCXYZРаспределениеКлиентов</reports>
   <reports>Report.АнализДоходовРасходов</reports>

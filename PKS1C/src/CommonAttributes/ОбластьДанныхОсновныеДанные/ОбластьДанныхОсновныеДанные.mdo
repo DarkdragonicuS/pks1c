@@ -781,10 +781,6 @@
     <use>DontUse</use>
   </content>
   <content>
-    <metadata>DocumentJournal.Взаимодействия</metadata>
-    <use>DontUse</use>
-  </content>
-  <content>
     <metadata>InformationRegister.ДополнительныеАдресныеСведения</metadata>
     <use>DontUse</use>
   </content>

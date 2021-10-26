@@ -1484,13 +1484,7 @@
 	</rowsItem>
 	<rowsItem>
 		<index>22</index>
-		<row>
-			<columnsID>012f1dfd-3a14-406c-9a7e-8a037447ff0c</columnsID>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>23</index>
+		<indexTo>23</indexTo>
 		<row>
 			<columnsID>012f1dfd-3a14-406c-9a7e-8a037447ff0c</columnsID>
 			<empty>true</empty>

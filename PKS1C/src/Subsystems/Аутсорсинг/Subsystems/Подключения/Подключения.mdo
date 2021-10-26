@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e54b1157-133e-4d49-a89d-a25ee3d6290e">
+  <name>Подключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Подключения</content>
+  <content>Catalog.ВидыПодключений</content>
+  <content>Enum.ТипыПодключений</content>
+  <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
+</mdclass:Subsystem>

@@ -162,7 +162,7 @@
           </handlers>
           <extendedTooltip>
             <name>ОтборОрганизацияЕГАИСРасширеннаяПодсказка</name>
-            <id>42</id>
+            <id>57</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -177,7 +177,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ОтборОрганизацияЕГАИСКонтекстноеМеню</name>
-            <id>41</id>
+            <id>56</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -412,7 +412,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ВходящиеСообщенияОрганизацияЕГАИСРасширеннаяПодсказка</name>
-        <id>45</id>
+        <id>54</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -558,7 +558,7 @@
       <id>2</id>
       <items xsi:type="form:Button">
         <name>ВходящиеСообщенияУдалитьСообщение</name>
-        <id>43</id>
+        <id>53</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -566,7 +566,7 @@
         </userVisible>
         <extendedTooltip>
           <name>ВходящиеСообщенияУдалитьСообщениеРасширеннаяПодсказка</name>
-          <id>44</id>
+          <id>55</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>

@@ -5302,7 +5302,7 @@
           </handlers>
           <extendedTooltip>
             <name>ИспользоватьНесколькоВидовНоменклатурыРасширеннаяПодсказка</name>
-            <id>272</id>
+            <id>593</id>
             <title>
               <key>ru</key>
               <value>Возможность использования более двух видов номенклатуры, при отключении опции в системе используются два вида номенклатуры с типом: &quot;Товар&quot;, &quot;Услуга&quot;.</value>
@@ -5322,7 +5322,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ИспользоватьНесколькоВидовНоменклатурыКонтекстноеМеню</name>
-            <id>271</id>
+            <id>592</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>

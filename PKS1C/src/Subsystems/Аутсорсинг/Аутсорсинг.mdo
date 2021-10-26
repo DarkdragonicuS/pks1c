@@ -21,4 +21,5 @@
   <subsystems>Лицензии</subsystems>
   <subsystems>Кассы</subsystems>
   <subsystems>Бухгалтерия</subsystems>
+  <subsystems>Подключения</subsystems>
 </mdclass:Subsystem>

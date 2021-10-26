@@ -113,10 +113,6 @@
     <use>Use</use>
   </content>
   <content>
-    <metadata>DocumentJournal.Взаимодействия</metadata>
-    <use>DontUse</use>
-  </content>
-  <content>
     <metadata>InformationRegister.ЗначенияКатегорийДляОбластиДанных</metadata>
     <use>Use</use>
   </content>
