@@ -69,6 +69,7 @@
   <defaultChoiceForm>Document.ЗаявкиКлиентов.Form.ФормаВыбора</defaultChoiceForm>
   <posting>Deny</posting>
   <registerRecords>InformationRegister.СтатусыЗаявок</registerRecords>
+  <registerRecords>InformationRegister.ИсторияИзмененийДокументов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="1e35e32a-bb52-43a2-a596-982d4726fcac">

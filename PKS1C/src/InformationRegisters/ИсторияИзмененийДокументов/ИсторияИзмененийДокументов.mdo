@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb9d5f34-79e5-4a8e-88df-c8b2f55c46dc">
+  <producedTypes>
+    <selectionType typeId="a64cfe64-3f03-4219-968d-7ca6939f94c0" valueTypeId="739bb013-aefe-46fd-9449-ceaa90957ddd"/>
+    <listType typeId="daefc50c-2108-4148-90b1-667e58a511ac" valueTypeId="9d0815a3-3d6a-420e-8aaf-2ae56680db53"/>
+    <managerType typeId="b06b360f-6da9-48b3-b362-25e2055e8fa6" valueTypeId="54db8464-a5f8-41a3-8e0f-51a0c3a2c5c8"/>
+    <recordSetType typeId="17901399-e6ef-434e-b8ec-1bebeaf21220" valueTypeId="6be1832b-3095-4954-93d5-781c65642be9"/>
+    <recordKeyType typeId="84b7bce5-3b5a-40f0-9b78-8b1e999a5cd3" valueTypeId="ee256217-1f81-4eac-8d17-c9431bc33350"/>
+    <recordType typeId="d67cc871-6a0c-4393-85be-aff23a1cc6b1" valueTypeId="ae782ff7-0c59-45a3-aa9b-5710c4fa2454"/>
+    <recordManagerType typeId="e0f10931-1c57-44db-9ea3-da9cb06fef7d" valueTypeId="ac6fb935-d10d-4785-bd55-7080c21553df"/>
+  </producedTypes>
+  <name>ИсторияИзмененийДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>История изменений документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="afcd6bdd-0456-47b1-9577-cf42f24282d9">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="63620fca-0fcd-45ae-9e28-4244491de961">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаявкиКлиентов</types>
+      <types>DocumentRef.ЗаявкаНаРемонт</types>
+      <types>DocumentRef.ДневнойОтчетПочасовыхРабот</types>
+      <types>DocumentRef.ПоступлениеЛицензий</types>
+      <types>DocumentRef.РеализацияЛицензий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
