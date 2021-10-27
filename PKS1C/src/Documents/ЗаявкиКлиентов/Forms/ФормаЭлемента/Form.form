@@ -841,6 +841,10 @@
             <segments>Объект.КонтактноеЛицо</segments>
           </paths>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>КонтактноеЛицоПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>КонтактноеЛицоРасширеннаяПодсказка</name>
           <id>21</id>
