@@ -69,7 +69,6 @@
   <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
   <registerRecords>InformationRegister.ПочасовыеРаботы</registerRecords>
   <registerRecords>InformationRegister.РаботыПоЗаявкам</registerRecords>
-  <registerRecords>InformationRegister.ИсторияИзмененийДокументов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="b77079a1-496d-42d7-8f1c-ba7aac886888">

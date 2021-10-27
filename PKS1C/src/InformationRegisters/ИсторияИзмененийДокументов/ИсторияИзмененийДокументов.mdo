@@ -17,7 +17,6 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
-  <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="afcd6bdd-0456-47b1-9577-cf42f24282d9">
     <name>Автор</name>
@@ -34,4 +33,46 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <dimensions uuid="e978bddc-a604-48ec-9cb3-efa2e40a7153">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ДневнойОтчетПочасовыхРабот</types>
+      <types>DocumentRef.ДоговорОбслуживания</types>
+      <types>DocumentRef.НормаРабот</types>
+      <types>DocumentRef.СменаДатКлючевыхНосителей</types>
+      <types>DocumentRef.ПоступлениеЛицензий</types>
+      <types>DocumentRef.РеализацияЛицензий</types>
+      <types>EnumRef.СтатусыРегистрацииККТ</types>
+      <types>DocumentRef.ЗаявкиКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <commands uuid="9a117cf2-6cba-4f8f-b8b2-390ba3c10d82">
+    <name>ИсторияИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>История изменений</value>
+    </synonym>
+    <group>FormNavigationPanelImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ЗаявкиКлиентов</types>
+      <types>DocumentRef.ДневнойОтчетПочасовыхРабот</types>
+      <types>DocumentRef.ДоговорОбслуживания</types>
+      <types>DocumentRef.НормаРабот</types>
+      <types>DocumentRef.СменаДатКлючевыхНосителей</types>
+      <types>DocumentRef.ПоступлениеЛицензий</types>
+      <types>DocumentRef.РеализацияЛицензий</types>
+      <types>DocumentRef.РегистрацияККТ</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:InformationRegister>

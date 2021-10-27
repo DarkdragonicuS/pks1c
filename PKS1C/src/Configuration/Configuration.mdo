@@ -3620,6 +3620,7 @@
   <commonModules>CommonModule.АутсорсЛицензииВызовСервера</commonModules>
   <commonModules>CommonModule.ВзаимодействиеСTelegramСервер</commonModules>
   <commonModules>CommonModule.АутсорсРаботы</commonModules>
+  <commonModules>CommonModule.АутсорсФункцииДокументовСервер</commonModules>
   <commonAttributes>CommonAttribute.ОбластьДанныхВспомогательныеДанные</commonAttributes>
   <commonAttributes>CommonAttribute.ОбластьДанныхОсновныеДанные</commonAttributes>
   <commonAttributes>CommonAttribute.Автор</commonAttributes>

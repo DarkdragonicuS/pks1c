@@ -68,7 +68,6 @@
   <defaultObjectForm>Document.РеализацияЛицензий.Form.ФормаДокумента</defaultObjectForm>
   <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
   <registerRecords>AccumulationRegister.Лицензии</registerRecords>
-  <registerRecords>InformationRegister.ИсторияИзмененийДокументов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f2b18c88-9327-4c08-b7d8-321ea7059fa1">
