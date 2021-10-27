@@ -3622,8 +3622,10 @@
   <commonModules>CommonModule.АутсорсРаботы</commonModules>
   <commonModules>CommonModule.АутсорсПодключенияКлиент</commonModules>
   <commonModules>CommonModule.АутсорсПодключенияСервер</commonModules>
+  <commonModules>CommonModule.АутсорсФункцииДокументовСервер</commonModules>
   <commonAttributes>CommonAttribute.ОбластьДанныхВспомогательныеДанные</commonAttributes>
   <commonAttributes>CommonAttribute.ОбластьДанныхОсновныеДанные</commonAttributes>
+  <commonAttributes>CommonAttribute.Автор</commonAttributes>
   <exchangePlans>ExchangePlan.ИнтеграцияС1СДокументооборотом</exchangePlans>
   <exchangePlans>ExchangePlan.МиграцияПриложений</exchangePlans>
   <exchangePlans>ExchangePlan.МобильноеПриложениеЗаказыКлиентов</exchangePlans>
@@ -8164,6 +8166,7 @@
   <informationRegisters>InformationRegister.КарточкиРегистрацийККТ</informationRegisters>
   <informationRegisters>InformationRegister.ВыставленныеСчета</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикДежурств</informationRegisters>
+  <informationRegisters>InformationRegister.ИсторияИзмененийДокументов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.БонусныеБаллы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВыручкаИСебестоимостьПродаж</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ГрафикОтгрузкиТоваров</accumulationRegisters>

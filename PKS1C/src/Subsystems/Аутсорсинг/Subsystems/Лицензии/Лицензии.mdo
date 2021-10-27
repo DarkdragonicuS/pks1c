@@ -18,5 +18,6 @@
   <content>Report.ДвижениеЛицензий</content>
   <content>Constant.СтрогийУчетЛицензий</content>
   <content>CommonModule.АутсорсЛицензииВызовСервера</content>
+  <content>InformationRegister.ИсторияИзмененийДокументов</content>
   <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
 </mdclass:Subsystem>

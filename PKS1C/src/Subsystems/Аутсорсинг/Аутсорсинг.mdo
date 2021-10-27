@@ -15,6 +15,9 @@
   <content>Enum.ПриоритетыЗаявок</content>
   <content>CommonModule.АутсорсОбщегоНазначения</content>
   <content>DataProcessor.ВыпадающийВыборПериода</content>
+  <content>InformationRegister.ИсторияИзмененийДокументов</content>
+  <content>CommonAttribute.Автор</content>
+  <content>CommonModule.АутсорсФункцииДокументовСервер</content>
   <subsystems>НСИ</subsystems>
   <subsystems>ПочасовыеРаботы</subsystems>
   <subsystems>КлючевыеНосители</subsystems>

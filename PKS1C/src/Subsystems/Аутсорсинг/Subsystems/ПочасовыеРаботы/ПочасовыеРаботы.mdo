@@ -29,5 +29,6 @@
   <content>Report.КлиентыВЧерномСписке</content>
   <content>DataProcessor.ГрафикДежурств</content>
   <content>InformationRegister.ГрафикДежурств</content>
+  <content>InformationRegister.ИсторияИзмененийДокументов</content>
   <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
 </mdclass:Subsystem>
