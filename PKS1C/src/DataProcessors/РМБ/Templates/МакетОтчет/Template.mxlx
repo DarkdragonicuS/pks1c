@@ -405,10 +405,47 @@
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>8</index>
+		<row>
+			<c>
+				<i>5</i>
+				<c>
+					<f>22</f>
+					<parameter>ЧасыОбщийИтог</parameter>
+					<detailParameter>МесячныйОтчет</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+					<parameter>АбонентскаяПлатаОбщийИтог</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<row>
+			<c>
+				<i>5</i>
+				<c>
+					<f>24</f>
+					<parameter>СуммаЧасовОбщийИтог</parameter>
+					<detailParameter>МесячныйОтчет</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>13</defaultFormatIndex>
-	<height>7</height>
-	<vgRows>7</vgRows>
+	<height>10</height>
+	<vgRows>10</vgRows>
 	<merge>
 		<r>0</r>
 		<c>0</c>
@@ -444,6 +481,11 @@
 		<c>6</c>
 		<h>1</h>
 	</merge>
+	<merge>
+		<r>8</r>
+		<c>6</c>
+		<h>1</h>
+	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Строки</name>
 		<area>
@@ -460,6 +502,16 @@
 			<type>Rows</type>
 			<beginRow>0</beginRow>
 			<endRow>3</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Подвал</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>8</beginRow>
+			<endRow>9</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -606,4 +658,42 @@
 			</v8:item>
 		</format>
 	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<width>72</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧН=-</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<border>0</border>
+		<width>86</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>1</font>
+		<border>0</border>
+		<width>72</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧН=-</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<border>0</border>
+		<width>86</width>
+	</format>
+	<textDirection>LeftToRight</textDirection>
 </document>
