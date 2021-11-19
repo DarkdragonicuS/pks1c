@@ -988,4 +988,12 @@
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>
+  <templates uuid="f38fa823-6381-49f6-b218-23dc1226a31b">
+    <name>ЗаявлениеОРегистрации2022</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление о регистрации 2022</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
 </mdclass:Document>
