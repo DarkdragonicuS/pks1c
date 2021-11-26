@@ -276,6 +276,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="fafebb49-67e9-461b-a7e2-7c4c69f1f274">
+    <name>ЭтоКонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это контактное лицо</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="9788945a-b64a-45cc-8885-ab3de96da622">
     <producedTypes>
       <objectType typeId="0858aa61-d8fd-497d-823a-68a5e7add6b7" valueTypeId="1222b83b-5022-40a3-8759-a89c91657af2"/>
