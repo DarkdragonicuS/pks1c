@@ -260,6 +260,31 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="fea6d3c4-6bda-4dc4-bb88-e7045fc8abbe">
+    <producedTypes>
+      <objectType typeId="b8286764-faf6-4d9e-b066-b60bf338f5df" valueTypeId="3460a4e5-d694-4637-b81e-cb48c0084021"/>
+      <rowType typeId="aa942673-209b-48d8-8249-3349c31d0c73" valueTypeId="2b2d8c2f-22a8-4618-baf7-710b1b91b15c"/>
+    </producedTypes>
+    <name>КонтактныеЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактные лица</value>
+    </synonym>
+    <attributes uuid="89be5b38-e47f-43ca-9c75-44e007158df6">
+      <name>КонтактноеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контактное лицо</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="6a41bb7c-7344-4e81-bd18-26a5c9075aba">
     <name>ФормаЭлемента</name>
     <synonym>
