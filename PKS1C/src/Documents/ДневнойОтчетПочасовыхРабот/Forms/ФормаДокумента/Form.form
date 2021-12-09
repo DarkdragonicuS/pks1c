@@ -360,11 +360,11 @@
         <wrap>true</wrap>
         <format>
           <key>ru</key>
-          <value>ДП=00:00</value>
+          <value>ДФ=ЧЧ:мм; ДП=00:00</value>
         </format>
         <editFormat>
           <key>ru</key>
-          <value>ДП=00:00</value>
+          <value>ДФ=ЧЧ:мм; ДП=00:00</value>
         </editFormat>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
@@ -424,11 +424,11 @@
         <wrap>true</wrap>
         <format>
           <key>ru</key>
-          <value>ДП=00:00</value>
+          <value>ДФ=ЧЧ:мм; ДП=00:00</value>
         </format>
         <editFormat>
           <key>ru</key>
-          <value>ДП=00:00</value>
+          <value>ДФ=ЧЧ:мм; ДП=00:00</value>
         </editFormat>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
