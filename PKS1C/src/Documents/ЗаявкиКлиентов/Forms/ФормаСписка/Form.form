@@ -253,10 +253,17 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
+        <handlers>
+          <event>StartChoice</event>
+          <name>Статус1НачалоВыбора</name>
+        </handlers>
+        <handlers>
+          <event>ChoiceProcessing</event>
+          <name>Статус1ОбработкаВыбора</name>
+        </handlers>
+        <maxWidth>24</maxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
-        <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
       </extInfo>
@@ -1176,7 +1183,7 @@
     </title>
     <id>3</id>
     <valueType>
-      <types>EnumRef.СтатусыЗаявок</types>
+      <types>ValueList</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1188,6 +1195,9 @@
       <segments>Статус</segments>
     </settingsSavedData>
     <savedData>true</savedData>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <attributes>
     <name>ПриоритетБул</name>
