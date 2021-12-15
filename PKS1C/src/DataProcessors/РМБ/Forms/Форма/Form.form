@@ -373,6 +373,7 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>Vertical</group>
+          <behavior>Collapsible</behavior>
           <representation>StrongSeparation</representation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
@@ -510,6 +511,7 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>Vertical</group>
+          <behavior>Collapsible</behavior>
           <representation>StrongSeparation</representation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
@@ -930,7 +932,137 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>Vertical</group>
+          <behavior>Collapsible</behavior>
           <representation>StrongSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <showTitle>true</showTitle>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаЗаявкиБезРабот</name>
+        <id>66</id>
+        <items xsi:type="form:Button">
+          <name>СформироватьЗаявкиБезРабот</name>
+          <id>97</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>СформироватьЗаявкиБезРаботРасширеннаяПодсказка</name>
+            <id>98</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualButton</type>
+          <commandName>Form.Command.СформироватьЗаявкиБезРабот</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ОтчетОЗаявкахБезРабот</name>
+          <id>94</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ОтчетОЗаявкахБезРабот</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ОтчетОЗаявкахБезРаботРасширеннаяПодсказка</name>
+            <id>96</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ОтчетОЗаявкахБезРаботКонтекстноеМеню</name>
+            <id>95</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>SpreadsheetDocumentField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:SpreadSheetDocFieldExtInfo">
+            <width>50</width>
+            <autoMaxWidth>true</autoMaxWidth>
+            <height>10</height>
+            <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
+            <verticalStretch>true</verticalStretch>
+            <pointerType>Special</pointerType>
+            <verticalScrollBar>ScrollAuto</verticalScrollBar>
+            <horizontalScrollBar>ScrollAuto</horizontalScrollBar>
+            <selectionShowMode>Always</selectionShowMode>
+            <drawingSelectionShowMode>Auto</drawingSelectionShowMode>
+            <showGroups>true</showGroups>
+            <enableStartDrag>true</enableStartDrag>
+            <enableDrag>true</enableDrag>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>4.</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаЗаявкиБезРаботРасширеннаяПодсказка</name>
+          <id>67</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <behavior>Collapsible</behavior>
+          <representation>WeakSeparation</representation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <showTitle>true</showTitle>
@@ -1216,6 +1348,24 @@
       </edit>
     </columns>
   </attributes>
+  <attributes>
+    <name>ОтчетОЗаявкахБезРабот</name>
+    <title>
+      <key>ru</key>
+      <value>Отчет о заявках без работ</value>
+    </title>
+    <id>8</id>
+    <valueType>
+      <types>SpreadsheetDocument</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:SpreadsheetDocumentExtInfo"/>
+  </attributes>
   <formCommands>
     <name>СформироватьСписокОпераций</name>
     <title>
@@ -1296,6 +1446,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>СформироватьТаблицуСчетов</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СформироватьЗаявкиБезРабот</name>
+    <title>
+      <key>ru</key>
+      <value>Сформировать заявки без работ</value>
+    </title>
+    <id>5</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СформироватьЗаявкиБезРабот</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

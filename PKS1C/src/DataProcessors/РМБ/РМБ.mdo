@@ -34,4 +34,11 @@
       <value>Отчет о несоответствующих сверхурочках</value>
     </synonym>
   </templates>
+  <templates uuid="db4bf813-c282-4445-b125-7a18df260aa4">
+    <name>ОтчетОЗаявкахБезРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявки без работ</value>
+    </synonym>
+  </templates>
 </mdclass:DataProcessor>
