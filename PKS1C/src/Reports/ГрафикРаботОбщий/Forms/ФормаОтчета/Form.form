@@ -134,20 +134,18 @@
   </items>
   <items xsi:type="form:FormField">
     <name>График</name>
-    <id>1</id>
+    <id>11</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>График</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>График</segments>
     </dataPath>
     <extendedTooltip>
       <name>ГрафикРасширеннаяПодсказка</name>
-      <id>3</id>
+      <id>13</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -162,7 +160,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ГрафикКонтекстноеМеню</name>
-      <id>2</id>
+      <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
