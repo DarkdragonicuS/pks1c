@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c1a7bf8-7117-4961-ae1d-1708c66ecfec">
+  <producedTypes>
+    <managerType typeId="a4e76c08-d266-4bb9-9ab5-6eec991ed454" valueTypeId="0d36c70c-ab49-4e6c-a388-3618d5e2527a"/>
+    <valueManagerType typeId="0b173a71-099f-42a8-a978-b5972c15c250" valueTypeId="bea015a8-02e1-44a8-8cac-896c77d48aa2"/>
+    <valueKeyType typeId="67f35f43-aba2-4678-b974-a6dd7301fa1f" valueTypeId="a07a7228-ac92-4356-89f4-597f1ec1c4b9"/>
+  </producedTypes>
+  <name>СтандартныйСрокРеагирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срок реагирования</value>
+  </synonym>
+  <comment>Рабочее количество часов, в течение которого необходимо работать по заявке</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

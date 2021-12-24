@@ -5851,6 +5851,7 @@
   <constants>Constant.ТокенTelegram</constants>
   <constants>Constant.ИДСообщенияTelegram</constants>
   <constants>Constant.ПользовательБотTelegram</constants>
+  <constants>Constant.СтандартныйСрокРеагирования</constants>
   <commonForms>CommonForm.АвтоматическийОбменСПодключаемымОборудованиемOffline</commonForms>
   <commonForms>CommonForm.АвтономнаяРабота</commonForms>
   <commonForms>CommonForm.АвтономнаяРаботаВМоделиСервиса</commonForms>

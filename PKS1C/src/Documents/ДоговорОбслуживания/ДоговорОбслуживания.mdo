@@ -181,6 +181,39 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="b370a92e-9d04-49dc-94ab-32073d413fa0">
+    <name>СрокРеагирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок реагирования</value>
+    </synonym>
+    <comment>Рабочее количество часов, в течение которого необходимо работать по заявке</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧН='(по умолчанию)'</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧН='(по умолчанию)'</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Рабочее количество часов, в течение которого необходимо работать по заявке</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="6e21b5c7-8788-4133-b49c-573f644c9d39">
     <name>ФормаДокумента</name>
     <synonym>
