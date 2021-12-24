@@ -1728,9 +1728,7 @@
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>InformationRegister.РаботыПоЗаявкам.StandardCommand.OpenByValue.Заявка</command>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
+        <userVisible/>
       </cmiFragmentRecord>
     </navigationPanel>
     <commandBar>

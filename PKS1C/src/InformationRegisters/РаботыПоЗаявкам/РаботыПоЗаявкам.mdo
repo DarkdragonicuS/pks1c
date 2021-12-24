@@ -191,4 +191,25 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="93c8b65f-40bb-413d-80b8-f2acc2268bdc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="298fbc49-9216-41ea-b195-627b7919720d">
+    <name>РаботыПоЗаявке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работы по заявке</value>
+    </synonym>
+    <group>FormNavigationPanelImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ЗаявкиКлиентов</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:InformationRegister>
