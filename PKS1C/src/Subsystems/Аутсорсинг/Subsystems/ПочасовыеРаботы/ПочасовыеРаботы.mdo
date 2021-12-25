@@ -30,5 +30,6 @@
   <content>DataProcessor.ГрафикДежурств</content>
   <content>InformationRegister.ГрафикДежурств</content>
   <content>InformationRegister.ИсторияИзмененийДокументов</content>
+  <content>Constant.СтандартныйСрокРеагирования</content>
   <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
 </mdclass:Subsystem>
