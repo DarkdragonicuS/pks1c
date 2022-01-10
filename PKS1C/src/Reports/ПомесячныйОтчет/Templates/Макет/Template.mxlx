@@ -19,18 +19,21 @@
 				<c>
 					<f>1</f>
 					<parameter>МесяцГод</parameter>
+					<detailParameter>Дата</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>1</f>
 					<parameter>МесяцГод</parameter>
+					<detailParameter>Дата</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>1</f>
 					<parameter>МесяцГод</parameter>
+					<detailParameter>Дата</detailParameter>
 				</c>
 			</c>
 		</row>
@@ -42,18 +45,21 @@
 				<c>
 					<f>2</f>
 					<parameter>Часов</parameter>
+					<detailParameter>Дата</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>3</f>
 					<parameter>ЦенаЧаса</parameter>
+					<detailParameter>Дата</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>3</f>
 					<parameter>Сумма</parameter>
+					<detailParameter>Дата</detailParameter>
 				</c>
 			</c>
 		</row>
