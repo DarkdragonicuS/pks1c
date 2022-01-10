@@ -31,5 +31,6 @@
   <content>InformationRegister.ГрафикДежурств</content>
   <content>InformationRegister.ИсторияИзмененийДокументов</content>
   <content>Constant.СтандартныйСрокРеагирования</content>
+  <content>Report.ПомесячныйОтчет</content>
   <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
 </mdclass:Subsystem>
