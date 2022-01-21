@@ -145,7 +145,7 @@
       <value>Контактное лицо</value>
     </synonym>
     <type>
-      <types>CatalogRef.ФизическиеЛица</types>
+      <types>CatalogRef.КонтактныеЛицаПартнеров</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -162,7 +162,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>15</length>
+        <length>16</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

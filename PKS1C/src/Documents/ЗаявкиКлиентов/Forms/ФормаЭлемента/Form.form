@@ -842,10 +842,6 @@
             <segments>Объект.КонтактноеЛицо</segments>
           </paths>
         </dataPath>
-        <handlers>
-          <event>OnChange</event>
-          <name>КонтактноеЛицоПриИзменении</name>
-        </handlers>
         <extendedTooltip>
           <name>КонтактноеЛицоРасширеннаяПодсказка</name>
           <id>21</id>
@@ -887,14 +883,6 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
-          <choiceParameters>
-            <name>Отбор.ЭтоКонтактноеЛицо</name>
-            <value xsi:type="form:FormChoiceListDesTimeValue">
-              <value xsi:type="core:BooleanValue">
-                <value>true</value>
-              </value>
-            </value>
-          </choiceParameters>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
