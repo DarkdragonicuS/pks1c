@@ -8,6 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.РМБ</content>
-  <content>InformationRegister.ВыставленныеСчета</content>
   <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
 </mdclass:Subsystem>

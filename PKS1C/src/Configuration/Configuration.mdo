@@ -8161,7 +8161,6 @@
   <informationRegisters>InformationRegister.ПользователиБотаTelegram</informationRegisters>
   <informationRegisters>InformationRegister.РасшифровкаКомандTelegram</informationRegisters>
   <informationRegisters>InformationRegister.КарточкиРегистрацийККТ</informationRegisters>
-  <informationRegisters>InformationRegister.ВыставленныеСчета</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикДежурств</informationRegisters>
   <informationRegisters>InformationRegister.ИсторияИзмененийДокументов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.БонусныеБаллы</accumulationRegisters>
