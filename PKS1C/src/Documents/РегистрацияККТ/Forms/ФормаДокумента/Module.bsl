@@ -1124,7 +1124,7 @@
 	//Подключение ККТ
 	USB = Ложь;
 	Попытка
-		Wrap = Новый COMОбъект("DynamicWrapper");
+		Wrap = Новый COMОбъект("DynamicWrapperX");
 		Wrap.Register("USER32.DLL", "GetActiveWindow", "f=s", "r=l");
 		Handle = Wrap.GetActiveWindow();
 		Ответ = fptr.showProperties(fptr.LIBFPTR_GUI_PARENT_NATIVE, Handle);
@@ -1152,10 +1152,20 @@
 			Если Ответ = КодВозвратаДиалога.Нет Тогда
 				Возврат
 			Иначе
-				ИмяФайлаDLL = "C:\Windows\System32\dynwrap.dll";
-				ЗаписьМакета(ИмяФайлаDLL,"DynamicWrapper");
-				ЗапуститьПриложение("C:\Windows\System32\regsvr32.exe """ + ИмяФайлаDLL + """",,Истина);
+//				ИмяФайлаDLL = "C:\Windows\System32\dynwrapx.dll";
+//				ЗаписьМакета(ИмяФайлаDLL,"DynamicWrapperX");
+//				ЗапуститьПриложение("C:\Windows\System32\regsvr32.exe """ + ИмяФайлаDLL + """",,Истина);
 				//УдалитьФайлы(ИмяФайлаDLL);
+				
+				СистемнаяИнформация = Новый СистемнаяИнформация;
+				Если СистемнаяИнформация.ТипПлатформы = ТипПлатформы.Windows_x86 Тогда
+					ИмяФайлаDLL = "C:\Windows\System32\dynwrapx.dll";
+					ЗаписьМакета(ИмяФайлаDLL,"DynamicWrapperX_32");
+				ИначеЕсли СистемнаяИнформация.ТипПлатформы = ТипПлатформы.Windows_x86_64 Тогда
+					ИмяФайлаDLL = "C:\Windows\System32\dynwrapx.dll";
+					ЗаписьМакета(ИмяФайлаDLL,"DynamicWrapperX_64");
+				КонецЕсли;
+				ЗапуститьПриложение("C:\Windows\System32\regsvr32.exe """ + ИмяФайлаDLL + """",,Истина);
 				Сообщить("Произведена регистрация необходимых библиотек. Повторите попытку");
 				Возврат;
 			КонецЕсли;
@@ -1527,7 +1537,7 @@
 	//Подключение ККТ
 	USB = Ложь;
 	Попытка
-		Wrap = Новый COMОбъект("DynamicWrapper");
+		Wrap = Новый COMОбъект("DynamicWrapperX");
 		Wrap.Register("USER32.DLL", "GetActiveWindow", "f=s", "r=l");
 		Handle = Wrap.GetActiveWindow();
 		Ответ = fptr.showProperties(fptr.LIBFPTR_GUI_PARENT_NATIVE, Handle);
@@ -1555,10 +1565,19 @@
 			Если Ответ = КодВозвратаДиалога.Нет Тогда
 				Возврат
 			Иначе
-				ИмяФайлаDLL = "C:\Windows\System32\dynwrap.dll";
-				ЗаписьМакета(ИмяФайлаDLL,"DynamicWrapper");
-				ЗапуститьПриложение("C:\Windows\System32\regsvr32.exe """ + ИмяФайлаDLL + """",,Истина);
+//				ИмяФайлаDLL = "C:\Windows\System32\dynwrapx.dll";
+//				ЗаписьМакета(ИмяФайлаDLL,"DynamicWrapperX");
+//				ЗапуститьПриложение("C:\Windows\System32\regsvr32.exe """ + ИмяФайлаDLL + """",,Истина);
 				//УдалитьФайлы(ИмяФайлаDLL);
+				СистемнаяИнформация = Новый СистемнаяИнформация;
+				Если СистемнаяИнформация.ТипПлатформы = ТипПлатформы.Windows_x86 Тогда
+					ИмяФайлаDLL = "C:\Windows\System32\dynwrapx.dll";
+					ЗаписьМакета(ИмяФайлаDLL,"DynamicWrapperX_32");
+				ИначеЕсли СистемнаяИнформация.ТипПлатформы = ТипПлатформы.Windows_x86_64 Тогда
+					ИмяФайлаDLL = "C:\Windows\System32\dynwrapx.dll";
+					ЗаписьМакета(ИмяФайлаDLL,"DynamicWrapperX_64");
+				КонецЕсли;
+				ЗапуститьПриложение("C:\Windows\System32\regsvr32.exe """ + ИмяФайлаDLL + """",,Истина);
 				Сообщить("Произведена регистрация необходимых библиотек. Повторите попытку");
 				Возврат;
 			КонецЕсли;

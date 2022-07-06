@@ -957,11 +957,12 @@
     <templateType>BinaryData</templateType>
   </templates>
   <templates uuid="a5a0d0a5-36d8-49d3-812a-e35dbb0187b6">
-    <name>DynamicWrapper</name>
+    <name>DynamicWrapperX_64</name>
     <synonym>
       <key>ru</key>
-      <value>Dynamic wrapper</value>
+      <value>Dynamic Wrapper X</value>
     </synonym>
+    <comment>http://dynwrapx.script-coding.com/dwx/pages/dynwrapx.php</comment>
     <templateType>BinaryData</templateType>
   </templates>
   <templates uuid="9f1aa65e-4b86-464d-ad95-2c833e0aa4a4">
@@ -993,6 +994,14 @@
     <synonym>
       <key>ru</key>
       <value>Заявление о регистрации 2022</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="29742a69-34e3-4759-9bed-12e4200bd0c8">
+    <name>DynamicWrapperX_32</name>
+    <synonym>
+      <key>ru</key>
+      <value>Dynamic Wrapper X</value>
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>
