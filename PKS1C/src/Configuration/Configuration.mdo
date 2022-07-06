@@ -2061,6 +2061,10 @@
   <roles>Role.ЧтениеШаблоновЭтикетокИЦенников</roles>
   <roles>Role.ЧтениеШтрихкодовУпаковокТоваров</roles>
   <roles>Role.ЧтениеЭлектронныхДокументов</roles>
+  <roles>Role.асРедактированиеЗакрытыхЗаявок</roles>
+  <roles>Role.асБазовыеПрава</roles>
+  <roles>Role.срсБазовыеПрава</roles>
+  <roles>Role.тгБазовыеПрава</roles>
   <commonTemplates>CommonTemplate.ГеографическаяСхемаКартаМира</commonTemplates>
   <commonTemplates>CommonTemplate.ГеографическаяСхемаРоссияРегионыИВсеГорода</commonTemplates>
   <commonTemplates>CommonTemplate.ГеографическаяСхемаРоссияРегионыИСтолицы</commonTemplates>
