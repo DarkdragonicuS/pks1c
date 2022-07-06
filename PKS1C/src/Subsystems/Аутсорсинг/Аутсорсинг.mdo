@@ -22,6 +22,9 @@
   <content>Constant.ТокенTelegram</content>
   <content>Constant.ИДСообщенияTelegram</content>
   <content>Constant.ПользовательБотTelegram</content>
+  <content>InformationRegister.РасшифровкаКомандTelegram</content>
+  <content>InformationRegister.ПользователиБотаTelegram</content>
+  <content>InformationRegister.ЛогTelegram</content>
   <subsystems>НСИ</subsystems>
   <subsystems>ПочасовыеРаботы</subsystems>
   <subsystems>КлючевыеНосители</subsystems>
