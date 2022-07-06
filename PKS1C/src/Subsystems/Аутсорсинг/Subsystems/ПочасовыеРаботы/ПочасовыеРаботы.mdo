@@ -32,5 +32,7 @@
   <content>InformationRegister.ИсторияИзмененийДокументов</content>
   <content>Constant.СтандартныйСрокРеагирования</content>
   <content>Report.ПомесячныйОтчет</content>
+  <content>Role.асРедактированиеЗакрытыхЗаявок</content>
+  <content>CommonModule.ВзаимодействиеСTelegramСервер</content>
   <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
 </mdclass:Subsystem>

@@ -18,4 +18,5 @@
   <content>Constant.ПользовательБотTelegram</content>
   <content>InformationRegister.ПользователиБотаTelegram</content>
   <content>InformationRegister.РасшифровкаКомандTelegram</content>
+  <content>Role.тгБазовыеПрава</content>
 </mdclass:Subsystem>

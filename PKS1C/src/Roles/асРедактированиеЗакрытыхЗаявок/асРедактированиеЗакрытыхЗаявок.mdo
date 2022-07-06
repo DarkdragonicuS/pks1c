@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c36a714b-c074-47fe-8139-abf8ea62dc9d">
+  <name>асРедактированиеЗакрытыхЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Аутсорс) Редактирование закрытых заявок</value>
+  </synonym>
+</mdclass:Role>

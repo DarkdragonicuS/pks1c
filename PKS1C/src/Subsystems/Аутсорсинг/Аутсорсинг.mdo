@@ -18,6 +18,7 @@
   <content>InformationRegister.ИсторияИзмененийДокументов</content>
   <content>CommonAttribute.Автор</content>
   <content>CommonModule.АутсорсФункцииДокументовСервер</content>
+  <content>Role.асБазовыеПрава</content>
   <subsystems>НСИ</subsystems>
   <subsystems>ПочасовыеРаботы</subsystems>
   <subsystems>КлючевыеНосители</subsystems>

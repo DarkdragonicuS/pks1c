@@ -14,4 +14,5 @@
   <content>Enum.СтатусыЗаявки</content>
   <content>Catalog.ВидыОплаты</content>
   <content>InformationRegister.ИзмененияСтатусовЗаявок</content>
+  <content>Role.срсБазовыеПрава</content>
 </mdclass:Subsystem>
