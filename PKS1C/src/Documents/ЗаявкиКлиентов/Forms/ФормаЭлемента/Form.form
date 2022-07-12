@@ -877,6 +877,10 @@
             <event>ChoiceProcessing</event>
             <name>КонтактноеЛицоОбработкаВыбора</name>
           </handlers>
+          <handlers>
+            <event>AutoComplete</event>
+            <name>КонтактноеЛицоАвтоПодбор</name>
+          </handlers>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
