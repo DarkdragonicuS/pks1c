@@ -1225,9 +1225,11 @@
 			Иначе
 				fptr.setParam(1101, 3);
 			КонецЕсли;
+		ИначеЕсли ВидОперации = fptr.LIBFPTR_FNOP_CHANGE_FN Тогда
+			fptr.setParam(1101, 1);
 		КонецЕсли;
 		
-		Если ВидОперации = fptr.LIBFPTR_FNOP_REGISTRATION Тогда
+		Если ВидОперации = fptr.LIBFPTR_FNOP_REGISTRATION ИЛИ ВидОперации = fptr.LIBFPTR_FNOP_CHANGE_FN Тогда
 			fptr.setParam(1018, ИННОрганизации);
 			fptr.setParam(1037, РН);
 			//fptr.setParam(1101, 0);
@@ -1249,8 +1251,7 @@
 				fptr.setParam(1001, Ложь);						//признак автоматического режима
 				fptr.setParam(1036, "");						//номер автомата
 				fptr.setParam(1002, Автономность); 				//автономно
-				//fptr.setParam(1056, ?(Автономность,Ложь,Истина));//шифрование
-				fptr.setParam(1056, Истина);//шифрование
+				fptr.setParam(1056, ?(Автономность,Ложь,Истина));//шифрование
 				fptr.setParam(1108, Ложь);						//расчет в Интернет
 				fptr.setParam(1109, Ложь);						//расчет за услуги
 				fptr.setParam(1110, Сведение150);  				//Признак АС БСО
