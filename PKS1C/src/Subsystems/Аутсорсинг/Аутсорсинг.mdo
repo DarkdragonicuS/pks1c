@@ -25,6 +25,7 @@
   <content>InformationRegister.РасшифровкаКомандTelegram</content>
   <content>InformationRegister.ПользователиБотаTelegram</content>
   <content>InformationRegister.ЛогTelegram</content>
+  <content>Role.асРедактированиеЧужихЗаявок</content>
   <subsystems>НСИ</subsystems>
   <subsystems>ПочасовыеРаботы</subsystems>
   <subsystems>КлючевыеНосители</subsystems>
