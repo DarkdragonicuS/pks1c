@@ -68,13 +68,66 @@
 			СерверОФД = СерверОФД();
 			ПортОФД = ПортОФД();
 			Если СерверОФД <> Неопределено И ПортОФД <> Неопределено Тогда
-				fptr.setParam(fptr.LIBFPTR_PARAM_SETTING_ID, 273);
-			    fptr.setParam(fptr.LIBFPTR_PARAM_SETTING_VALUE, СерверОФД);
-			    fptr.writeDeviceSetting();
-				fptr.setParam(fptr.LIBFPTR_PARAM_SETTING_ID, 274);
-			    fptr.setParam(fptr.LIBFPTR_PARAM_SETTING_VALUE, ПортОФД);
-			    fptr.writeDeviceSetting();
-			    Сообщить("Настройки ОФД успешно записаны в ККТ.");
+//				fptr.setParam(fptr.LIBFPTR_PARAM_SETTING_ID, 273);
+//			    fptr.setParam(fptr.LIBFPTR_PARAM_SETTING_VALUE, СерверОФД);
+//			    fptr.writeDeviceSetting();
+//				fptr.setParam(fptr.LIBFPTR_PARAM_SETTING_ID, 274);
+//			    fptr.setParam(fptr.LIBFPTR_PARAM_SETTING_VALUE, ПортОФД);
+//			    fptr.writeDeviceSetting();
+
+//				ЗаданиеJSON = "
+//				|{""type"": ""setDeviceParameters""},
+//				|""deviceParameters"" : [
+//		        |{
+//		        |   ""key"" : 273,
+//		        |   ""value"" : " + СерверОФД + "
+//		        |},
+//		        |{
+//		        |   ""key"" : 274,
+//		        |   ""value"" : " + ПортОФД + "
+//		        |}
+//		        |]";
+
+				ЗаданиеJSON = "
+				|{
+				|   ""type"": ""setDeviceParameters"",
+				|
+				|   ""deviceParameters"" : [
+				|         {
+				|            ""key"" : 273,
+				|            ""value"" : """ + СерверОФД + """
+				|         },
+				|         {
+				|            ""key"" : 274,
+				|            ""value"" : """ + Формат(ПортОФД,"ЧГ=") + """ 
+				|         }
+				|      ]
+				|}";
+				fptr.setParam(fptr.LIBFPTR_PARAM_JSON_DATA, ЗаданиеJSON);
+    			fptr.processJson();
+
+			    resultString = fptr.getParamString(fptr.LIBFPTR_PARAM_JSON_DATA);
+			    
+			    result = ПолучитьСтруктурированныеДанныеJSON(resultString);
+			    
+			    Сообщить("Настройки ОФД записаны в ККТ.");
+			    
+			    Для Каждого Параметр Из result.deviceParameters Цикл
+			    	Если Параметр.Свойство("errorDescription") Тогда
+			    		Если Параметр.key = 273 Тогда
+			    			тАдресОФД = "Не установлен: " + Параметр.errorDescription; 
+			    		ИначеЕсли Параметр.key = 274 Тогда
+			    			тПортОФД = "Не установлен: " + Параметр.errorDescription;
+			    		КонецЕсли;
+			    	Иначе
+			    		Если Параметр.key = 273 Тогда
+			    			тАдресОФД = Параметр.value; 
+			    		ИначеЕсли Параметр.key = 274 Тогда
+			    			тПортОФД = Параметр.value;
+			    		КонецЕсли;
+			    	КонецЕсли;
+			    КонецЦикла;
+			    ПредварительныйРезультатРегистрации = "Записаны настройки:" + Символы.ПС + "Адрес ОФД: " + тАдресОФД + Символы.ПС + "Порт ОФД: " + тПортОФД;
 			Иначе
 				Сообщить("Проверьте настройки подключения к ОФД!");
 			КонецЕсли;
