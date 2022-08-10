@@ -235,13 +235,14 @@
 	fptr.open();
 
 	Если fptr.isOpened() Тогда
-		fptr.setParam(fptr.LIBFPTR_PARAM_SETTING_ID, 273);
-		fptr.ReadDeviceSetting();
-		тАдресОФД = fptr.GetParamString(fptr.LIBFPTR_PARAM_SETTING_VALUE);
-		fptr.setParam(fptr.LIBFPTR_PARAM_SETTING_ID, 274);
-		fptr.ReadDeviceSetting();
-	    тПортОФД = fptr.GetParamString(fptr.LIBFPTR_PARAM_SETTING_VALUE);
-	    ПредварительныйРезультатРегистрации = "Адрес ОФД: " + тАдресОФД + Символы.ПС + "Порт ОФД: " + Формат(тПортОФД,"ЧГ=");
+//		fptr.setParam(fptr.LIBFPTR_PARAM_SETTING_ID, 273);
+//		fptr.ReadDeviceSetting();
+//		тАдресОФД = fptr.GetParamString(fptr.LIBFPTR_PARAM_SETTING_VALUE);
+//		fptr.setParam(fptr.LIBFPTR_PARAM_SETTING_ID, 274);
+//		fptr.ReadDeviceSetting();
+//	    тПортОФД = fptr.GetParamString(fptr.LIBFPTR_PARAM_SETTING_VALUE);
+//	    ПредварительныйРезультатРегистрации = "Адрес ОФД: " + тАдресОФД + Символы.ПС + "Порт ОФД: " + Формат(тПортОФД,"ЧГ=");
+		ПрочитатьНастройкиОФДсККТ(fptr);
 		fptr.close();
 	Иначе
 		Сообщить(fptr.errorDescription());
@@ -2235,4 +2236,37 @@
     	КонецЕсли;
     КонецЦикла;
     ПредварительныйРезультатРегистрации = "Записаны настройки:" + Символы.ПС + "Адрес ОФД: " + тАдресОФД + Символы.ПС + "Порт ОФД: " + тПортОФД;
+КонецПроцедуры
+
+&НаКлиенте
+Процедура ПрочитатьНастройкиОФДсККТ(fptr)
+	ЗаданиеJSON = "
+				|{
+				|   ""type"": ""getDeviceParameters"",
+				|
+				|   ""keys"" : [ 27333, 274 ]
+				|}";
+	fptr.setParam(fptr.LIBFPTR_PARAM_JSON_DATA, ЗаданиеJSON);
+	fptr.processJson();
+
+    resultString = fptr.getParamString(fptr.LIBFPTR_PARAM_JSON_DATA);
+    
+    result = ПолучитьСтруктурированныеДанныеJSON(resultString);
+    
+    Для Каждого Параметр Из result.deviceParameters Цикл
+    	Если Параметр.Свойство("errorDescription") Тогда
+    		Если Параметр.key = 273 Тогда
+    			тАдресОФД = "Не получен: " + Параметр.errorDescription; 
+    		ИначеЕсли Параметр.key = 274 Тогда
+    			тПортОФД = "Не получен: " + Параметр.errorDescription;
+    		КонецЕсли;
+    	Иначе
+    		Если Параметр.key = 273 Тогда
+    			тАдресОФД = Параметр.value; 
+    		ИначеЕсли Параметр.key = 274 Тогда
+    			тПортОФД = Параметр.value;
+    		КонецЕсли;
+    	КонецЕсли;
+    КонецЦикла;
+    ПредварительныйРезультатРегистрации = "Считаны настройки:" + Символы.ПС + "Адрес ОФД: " + тАдресОФД + Символы.ПС + "Порт ОФД: " + тПортОФД;
 КонецПроцедуры
