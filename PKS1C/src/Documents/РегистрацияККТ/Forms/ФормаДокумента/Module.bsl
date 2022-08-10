@@ -2244,7 +2244,7 @@
 				|{
 				|   ""type"": ""getDeviceParameters"",
 				|
-				|   ""keys"" : [ 27333, 274 ]
+				|   ""keys"" : [ 273, 274 ]
 				|}";
 	fptr.setParam(fptr.LIBFPTR_PARAM_JSON_DATA, ЗаданиеJSON);
 	fptr.processJson();
