@@ -646,6 +646,26 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="1baf769f-c180-4aa7-84db-1bd53d40db83">
+    <name>КодПричиныПеререгистрацииККТФФД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код причины перерегистрации ККТ ФФД</value>
+    </synonym>
+    <comment>побитовая маска причин перерегистрации при ФФД 1.1 и выше</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="edd87a0f-3802-46f9-a12e-7b1bf330ac80">
     <name>ФормаДокумента</name>
     <synonym>
