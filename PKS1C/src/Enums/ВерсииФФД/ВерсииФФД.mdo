@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c78ac73-5483-4b03-ad5b-7eb6737ce23d">
+  <producedTypes>
+    <refType typeId="8f016051-029c-45e7-8517-bcb19f335a88" valueTypeId="65d16001-8d24-4c1b-8601-0463fb7fdc82"/>
+    <listType typeId="65e63842-002c-4087-b8f6-938ffe9b3842" valueTypeId="92e16a33-1d20-46cc-bf7d-3da7e9aa22c1"/>
+    <managerType typeId="ce20a18b-052e-42bd-b840-1e78bb63bec4" valueTypeId="adbaf549-a574-49eb-b5a7-25c50f3282f9"/>
+  </producedTypes>
+  <name>ВерсииФФД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии ФФД</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2e8e6263-5a72-4bfd-8807-1005751e6e89">
+    <name>ФФД105</name>
+    <synonym>
+      <key>ru</key>
+      <value>1.05</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="efd5073d-e3ec-4fc1-9c5a-b1526bc15a72">
+    <name>ФФД11</name>
+    <synonym>
+      <key>ru</key>
+      <value>1.1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0a6e4fe-f9a4-482d-bf3d-246b6fa90eb5">
+    <name>ФФД12</name>
+    <synonym>
+      <key>ru</key>
+      <value>1.2</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

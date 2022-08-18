@@ -7227,6 +7227,7 @@
   <enums>Enum.СтатусыЗаявки</enums>
   <enums>Enum.СтатусыРегистрацииККТ</enums>
   <enums>Enum.СтатусыДоговоровОбслуживания</enums>
+  <enums>Enum.ВерсииФФД</enums>
   <reports>Report.ABCXYZАнализНоменклатуры</reports>
   <reports>Report.ABCXYZРаспределениеКлиентов</reports>
   <reports>Report.АнализДоходовРасходов</reports>

@@ -19,5 +19,6 @@
   <content>Catalog.ФискальныеНакопители</content>
   <content>InformationRegister.КарточкиРегистрацийККТ</content>
   <content>Enum.СтатусыРегистрацииККТ</content>
+  <content>Enum.ВерсииФФД</content>
   <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
 </mdclass:Subsystem>

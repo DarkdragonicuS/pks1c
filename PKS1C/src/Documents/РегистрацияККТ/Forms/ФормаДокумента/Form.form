@@ -346,6 +346,78 @@
     <representationInContextMenu>Auto</representationInContextMenu>
     <pictureLocation>Right</pictureLocation>
   </items>
+  <items xsi:type="form:FormField">
+    <name>ВерсияФФД</name>
+    <id>239</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ВерсияФФД</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ВерсияФФДРасширеннаяПодсказка</name>
+      <id>241</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ВерсияФФДКонтекстноеМеню</name>
+      <id>240</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>RadioButtonField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+      <radioButtonsType>Tumbler</radioButtonsType>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>1.05</value>
+        </presentation>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВерсииФФД.EnumValue.ФФД105</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>1.1</value>
+        </presentation>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВерсииФФД.EnumValue.ФФД11</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>1.2</value>
+        </presentation>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВерсииФФД.EnumValue.ФФД12</value>
+        </value>
+      </choiceList>
+    </extInfo>
+  </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаСтраницы</name>
     <id>91</id>

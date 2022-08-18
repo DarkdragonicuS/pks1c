@@ -631,6 +631,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="3dcecbd1-dc6d-4690-9c8c-83f70f59ef13">
+    <name>ВерсияФФД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия ФФД</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВерсииФФД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="edd87a0f-3802-46f9-a12e-7b1bf330ac80">
     <name>ФормаДокумента</name>
     <synonym>
