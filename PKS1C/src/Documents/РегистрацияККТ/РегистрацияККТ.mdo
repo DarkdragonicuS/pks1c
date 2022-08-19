@@ -666,6 +666,61 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="1f0c3625-eb4c-41fd-84c4-9557ca610bfc">
+    <name>СведенияОбИспользованииККТПоФФД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения об использовании ККТ по ФФД</value>
+    </synonym>
+    <comment>побитовая маска сведений об использовании ККТ</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9b5d681-1db1-49b7-ae62-bdd091235093">
+    <name>ПризнакАгента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак агента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="813dd089-42a4-4460-acc1-57fb0113f90f">
+    <name>НомерАвтомата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер автомата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="edd87a0f-3802-46f9-a12e-7b1bf330ac80">
     <name>ФормаДокумента</name>
     <synonym>
