@@ -357,6 +357,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.ВерсияФФД</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ВерсияФФДПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ВерсияФФДРасширеннаяПодсказка</name>
       <id>241</id>
