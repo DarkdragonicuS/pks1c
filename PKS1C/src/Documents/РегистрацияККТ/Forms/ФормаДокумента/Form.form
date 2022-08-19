@@ -1231,6 +1231,10 @@
               </paths>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>Причина1ИзменениеАдресаПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>Причина1ИзменениеАдресаРасширеннаяПодсказка</name>
               <id>66</id>
@@ -1277,6 +1281,10 @@
               </paths>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>Причина2СменаОФДПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>Причина2СменаОФДРасширеннаяПодсказка</name>
               <id>69</id>
@@ -1323,6 +1331,10 @@
               </paths>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>Причина3ИзменениеСведенийОПримененииККТВСоставеАУПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>Причина3ИзменениеСведенийОПримененииККТВСоставеАУРасширеннаяПодсказка</name>
               <id>72</id>
@@ -1575,6 +1587,10 @@
               </paths>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>Причина7ИзменениеРеквизитовОрганизацииПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>Причина7ИзменениеРеквизитовОрганизацииРасширеннаяПодсказка</name>
               <id>84</id>
@@ -1621,6 +1637,10 @@
               </paths>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>Причина8ИныеПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>Причина8ИныеРасширеннаяПодсказка</name>
               <id>87</id>
@@ -1704,6 +1724,10 @@
               <segments>ПричинаФФД0ЗаменаФН</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД0ЗаменаФНПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД0ЗаменаФНРасширеннаяПодсказка</name>
               <id>246</id>
@@ -1748,6 +1772,10 @@
               <segments>ПричинаФФД1СменаОФД</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД1СменаОФДПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД1СменаОФДРасширеннаяПодсказка</name>
               <id>279</id>
@@ -1792,6 +1820,10 @@
               <segments>ПричинаФФД2ИзменениеПользователя</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД2ИзменениеПользователяПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД2ИзменениеПользователяРасширеннаяПодсказка</name>
               <id>288</id>
@@ -1836,6 +1868,10 @@
               <segments>ПричинаФФД3ИзменениеАдреса</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД3ИзменениеАдресаПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД3ИзменениеАдресаРасширеннаяПодсказка</name>
               <id>294</id>
@@ -1880,6 +1916,10 @@
               <segments>ПричинаФФД4ПереходНаРаботуСОФД</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД4ПереходНаРаботуСОФДПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД4ПереходНаРаботуСОФДРасширеннаяПодсказка</name>
               <id>297</id>
@@ -1924,6 +1964,10 @@
               <segments>ПричинаФФД5ПереходВАвтономныйРежим</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД5ПереходВАвтономныйРежимПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД5ПереходВАвтономныйРежимРасширеннаяПодсказка</name>
               <id>300</id>
@@ -1968,6 +2012,10 @@
               <segments>ПричинаФФД6ИзменениеВерсииККТ</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД6ИзменениеВерсииККТПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД6ИзменениеВерсииККТРасширеннаяПодсказка</name>
               <id>303</id>
@@ -2012,6 +2060,10 @@
               <segments>ПричинаФФД7ИзменениеСНО</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД7ИзменениеСНОПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД7ИзменениеСНОРасширеннаяПодсказка</name>
               <id>306</id>
@@ -2056,6 +2108,10 @@
               <segments>ПричинаФФД8ИзменениеНомераУстройства</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД8ИзменениеНомераУстройстваПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД8ИзменениеНомераУстройстваРасширеннаяПодсказка</name>
               <id>309</id>
@@ -2100,6 +2156,10 @@
               <segments>ПричинаФФД9ПереводВНеавтоматическийРежим</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД9ПереводВНеавтоматическийРежимПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД9ПереводВНеавтоматическийРежимРасширеннаяПодсказка</name>
               <id>312</id>
@@ -2144,6 +2204,10 @@
               <segments>ПричинаФФД10ПереводВАвтоматическийРежим</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД10ПереводВАвтоматическийРежимПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД10ПереводВАвтоматическийРежимРасширеннаяПодсказка</name>
               <id>249</id>
@@ -2188,6 +2252,10 @@
               <segments>ПричинаФФД11ПереводВРежимБСО</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД11ПереводВРежимБСОПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД11ПереводВРежимБСОРасширеннаяПодсказка</name>
               <id>252</id>
@@ -2232,6 +2300,10 @@
               <segments>ПричинаФФД12ВыходИзРежимаБСО</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД12ВыходИзРежимаБСОПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД12ВыходИзРежимаБСОРасширеннаяПодсказка</name>
               <id>255</id>
@@ -2276,6 +2348,10 @@
               <segments>ПричинаФФД13ВыходИзРежимаРасчетовВИнтернет</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД13ВыходИзРежимаРасчетовВИнтернетПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД13ВыходИзРежимаРасчетовВИнтернетРасширеннаяПодсказка</name>
               <id>258</id>
@@ -2320,6 +2396,10 @@
               <segments>ПричинаФФД14ПереводВРежимРасчетовВИнтернет</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД14ПереводВРежимРасчетовВИнтернетПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД14ПереводВРежимРасчетовВИнтернетРасширеннаяПодсказка</name>
               <id>261</id>
@@ -2364,6 +2444,10 @@
               <segments>ПричинаФФД15ВыходИзРежимаПлатежногоАгента</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД15ВыходИзРежимаПлатежногоАгентаПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД15ВыходИзРежимаПлатежногоАгентаРасширеннаяПодсказка</name>
               <id>264</id>
@@ -2408,6 +2492,10 @@
               <segments>ПричинаФФД16ПереводВРежимПлатежногоАгента</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД16ПереводВРежимПлатежногоАгентаПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД16ПереводВРежимПлатежногоАгентаРасширеннаяПодсказка</name>
               <id>267</id>
@@ -2452,6 +2540,10 @@
               <segments>ПричинаФФД17ВыходИзРежимаАзартныхИгр</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД17ВыходИзРежимаАзартныхИгрПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД17ВыходИзРежимаАзартныхИгрРасширеннаяПодсказка</name>
               <id>270</id>
@@ -2496,6 +2588,10 @@
               <segments>ПричинаФФД18ПереводВРежимАзартныхИгр</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД18ПереводВРежимАзартныхИгрПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД18ПереводВРежимАзартныхИгрРасширеннаяПодсказка</name>
               <id>273</id>
@@ -2540,6 +2636,10 @@
               <segments>ПричинаФФД19ВыходИзРежимаЛотерей</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД19ВыходИзРежимаЛотерейПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД19ВыходИзРежимаЛотерейРасширеннаяПодсказка</name>
               <id>276</id>
@@ -2584,6 +2684,10 @@
               <segments>ПричинаФФД20ПереводВРежимЛотерей</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД20ПереводВРежимЛотерейПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД20ПереводВРежимЛотерейРасширеннаяПодсказка</name>
               <id>282</id>
@@ -2628,6 +2732,10 @@
               <segments>ПричинаФФД21СменаФФД</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД21СменаФФДПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД21СменаФФДРасширеннаяПодсказка</name>
               <id>285</id>
@@ -2672,6 +2780,10 @@
               <segments>ПричинаФФД31Иные</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаФФД31ИныеПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПричинаФФД31ИныеРасширеннаяПодсказка</name>
               <id>291</id>
@@ -4378,6 +4490,10 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Сведение120</segments>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>Сведение120ПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>Сведение120РасширеннаяПодсказка</name>
               <id>234</id>
@@ -4464,6 +4580,10 @@
                 <segments>СведениеФФД1002АвтономныйРежим</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеФФД1002АвтономныйРежимПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеФФД1002АвтономныйРежимРасширеннаяПодсказка</name>
                 <id>326</id>
@@ -4508,6 +4628,10 @@
                 <segments>СведениеФФД1056Шифрование</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеФФД1056ШифрованиеПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеФФД1056ШифрованиеРасширеннаяПодсказка</name>
                 <id>329</id>
@@ -4552,6 +4676,10 @@
                 <segments>СведениеФФД1108Интернет</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеФФД1108ИнтернетПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеФФД1108ИнтернетРасширеннаяПодсказка</name>
                 <id>332</id>
@@ -4596,6 +4724,10 @@
                 <segments>СведениеФФД1109РасчетыЗаУслуги</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеФФД1109РасчетыЗаУслугиПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеФФД1109РасчетыЗаУслугиРасширеннаяПодсказка</name>
                 <id>335</id>
@@ -4640,6 +4772,10 @@
                 <segments>СведениеФФД1110БСО</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеФФД1110БСОПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеФФД1110БСОРасширеннаяПодсказка</name>
                 <id>338</id>
@@ -4684,6 +4820,10 @@
                 <segments>СведениеФФД1126Лотереи</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеФФД1126ЛотереиПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеФФД1126ЛотереиРасширеннаяПодсказка</name>
                 <id>341</id>
@@ -4728,6 +4868,10 @@
                 <segments>СведениеФФД1001АвтоматическийРежим</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеФФД1001АвтоматическийРежимПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеФФД1001АвтоматическийРежимРасширеннаяПодсказка</name>
                 <id>323</id>
@@ -4809,6 +4953,10 @@
                 <segments>СведениеФФД1193АзартныеИгры</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеФФД1193АзартныеИгрыПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеФФД1193АзартныеИгрыРасширеннаяПодсказка</name>
                 <id>344</id>
@@ -4853,6 +5001,10 @@
                 <segments>СведениеФФД1207ПодакцизныйТовар</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеФФД1207ПодакцизныйТоварПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеФФД1207ПодакцизныйТоварРасширеннаяПодсказка</name>
                 <id>347</id>
@@ -4897,6 +5049,10 @@
                 <segments>СведениеФФД1221ПринтерВАвтомате</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеФФД1221ПринтерВАвтоматеПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеФФД1221ПринтерВАвтоматеРасширеннаяПодсказка</name>
                 <id>350</id>
@@ -4941,6 +5097,10 @@
                 <segments>СведениеФФДЛомбарднаяДеятельность</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеФФДЛомбарднаяДеятельностьПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеФФДЛомбарднаяДеятельностьРасширеннаяПодсказка</name>
                 <id>353</id>
@@ -4985,6 +5145,10 @@
                 <segments>СведениеФФДМаркировка</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеФФДМаркировкаПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеФФДМаркировкаРасширеннаяПодсказка</name>
                 <id>356</id>
@@ -5029,6 +5193,10 @@
                 <segments>СведениеФФДСтраховаяДеятельность</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеФФДСтраховаяДеятельностьПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеФФДСтраховаяДеятельностьРасширеннаяПодсказка</name>
                 <id>359</id>
@@ -5160,6 +5328,10 @@
                 <segments>СведениеАгента0БанковскийАгент</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеАгента0БанковскийАгентПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеАгента0БанковскийАгентРасширеннаяПодсказка</name>
                 <id>366</id>
@@ -5204,6 +5376,10 @@
                 <segments>СведениеАгента1БанковскийСубагент</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеАгента1БанковскийСубагентПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеАгента1БанковскийСубагентРасширеннаяПодсказка</name>
                 <id>369</id>
@@ -5248,6 +5424,10 @@
                 <segments>СведениеАгента2ПлАгент</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеАгента2ПлАгентПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеАгента2ПлАгентРасширеннаяПодсказка</name>
                 <id>372</id>
@@ -5292,6 +5472,10 @@
                 <segments>СведениеАгента3ПлСубагент</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеАгента3ПлСубагентПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеАгента3ПлСубагентРасширеннаяПодсказка</name>
                 <id>375</id>
@@ -5336,6 +5520,10 @@
                 <segments>СведениеАгента4Поверенный</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеАгента4ПоверенныйПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеАгента4ПоверенныйРасширеннаяПодсказка</name>
                 <id>378</id>
@@ -5380,6 +5568,10 @@
                 <segments>СведениеАгента5Комиссионер</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеАгента5КомиссионерПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеАгента5КомиссионерРасширеннаяПодсказка</name>
                 <id>381</id>
@@ -5424,6 +5616,10 @@
                 <segments>СведениеАгента6Агент</segments>
               </dataPath>
               <titleLocation>Right</titleLocation>
+              <handlers>
+                <event>OnChange</event>
+                <name>СведениеАгента6АгентПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СведениеАгента6АгентРасширеннаяПодсказка</name>
                 <id>384</id>
