@@ -1845,7 +1845,7 @@
 		КонецЕсли;
 
 		
-		Если РезультатОперации = -1 Тогда
+		Если РезультатОперации.КодОшибки = -1 Тогда
 			Сообщить(fptr.errorDescription());
 			fptr.close();
 			fptr = Неопределено;
@@ -1853,17 +1853,17 @@
 		КонецЕсли;
 		
 		//Получаем незаполненные данные:
+		РезультатОтвет = РезультатОперации.Ответ;
 		//срок действия ФН
-		fptr.setParam(fptr.LIBFPTR_PARAM_FN_DATA_TYPE, fptr.LIBFPTR_FNDT_VALIDITY);
-		fptr.fnQueryData();
-		Объект.СрокДействия = fptr.getParamDateTime(fptr.LIBFPTR_PARAM_DATE_TIME);
+		ИнфоОФН = ПолучитьИнфоОФН(fptr);
+		Если Объект.ВидОперации <> ПредопределенноеЗначение("Перечисление.ВидыОперацийККТ.Закрытие") Тогда
+			Объект.СрокДействия = АутсорсРаботаСККТАтолКлиент.ПолучитьДатуИзСтрокиJSON(ИнфоОФН.fnInfo.validityDate);
+		КонецЕсли;
 		
 		//ФД, ФП, Дата отчета
-		fptr.setParam(fptr.LIBFPTR_PARAM_FN_DATA_TYPE, fptr.LIBFPTR_FNDT_LAST_DOCUMENT);
-		fptr.fnQueryData();
-		Объект.ФискальныйПризнак = Формат(fptr.getParamString(fptr.LIBFPTR_PARAM_FISCAL_SIGN),"ЧГ=");
-		Объект.ДатаФормированияФП = fptr.getParamDateTime(fptr.LIBFPTR_PARAM_DATE_TIME);
-		Объект.НомерФД = Формат(fptr.getParamInt(fptr.LIBFPTR_PARAM_DOCUMENT_NUMBER),"ЧГ=");
+		Объект.ФискальныйПризнак = Формат(РезультатОтвет.fiscalParams.fiscalDocumentSign,"ЧГ=");
+		Объект.ДатаФормированияФП = АутсорсРаботаСККТАтолКлиент.ПолучитьДатуИзСтрокиJSON(РезультатОтвет.fiscalParams.fiscalDocumentDateTime);
+		Объект.НомерФД = Формат(РезультатОтвет.fiscalParams.fiscalDocumentNumber,"ЧГ=");
 		
 		fptr.close();
 		ЭтаФорма.Модифицированность = Истина;
@@ -3116,13 +3116,13 @@
 	
 	fptr.setParam(fptr.LIBFPTR_PARAM_JSON_DATA, ЗаданиеJSONСтрокой);
 	
-	Результат = fptr.processJson();
-	
-	Если Результат = 0 Тогда
-		ПредварительныйРезультатРегистрации = ПолучитьСтрокуJSONИзСтруктуры(ПолучитьСтруктурированныеДанныеJSON(fptr.getParamString(fptr.LIBFPTR_PARAM_JSON_DATA)));
+	КодОшибки = fptr.processJson();
+	Ответ = ПолучитьСтруктурированныеДанныеJSON(fptr.getParamString(fptr.LIBFPTR_PARAM_JSON_DATA));
+	Если КодОшибки = 0 Тогда
+		ПредварительныйРезультатРегистрации = ПолучитьСтрокуJSONИзСтруктуры(Ответ);
 	КонецЕсли;
 	
-	Возврат Результат;
+	Возврат Новый Структура("КодОшибки,Ответ",КодОшибки,Ответ);;
 КонецФункции
 
 &НаКлиенте
@@ -3158,13 +3158,13 @@
 	
 	fptr.setParam(fptr.LIBFPTR_PARAM_JSON_DATA, ЗаданиеJSONСтрокой);
 	
-	Результат = fptr.processJson();
-	
-	Если Результат = 0 Тогда
-		ПредварительныйРезультатРегистрации = ПолучитьСтрокуJSONИзСтруктуры(ПолучитьСтруктурированныеДанныеJSON(fptr.getParamString(fptr.LIBFPTR_PARAM_JSON_DATA)));
+	КодОшибки = fptr.processJson();
+	Ответ = ПолучитьСтруктурированныеДанныеJSON(fptr.getParamString(fptr.LIBFPTR_PARAM_JSON_DATA));
+	Если КодОшибки = 0 Тогда
+		ПредварительныйРезультатРегистрации = ПолучитьСтрокуJSONИзСтруктуры(Ответ);
 	КонецЕсли;
 	
-	Возврат Результат;
+	Возврат Новый Структура("КодОшибки,Ответ",КодОшибки,Ответ);
 КонецФункции
 
 &НаКлиенте
@@ -3196,13 +3196,13 @@
 	
 	fptr.setParam(fptr.LIBFPTR_PARAM_JSON_DATA, ЗаданиеJSONСтрокой);
 	
-	Результат = fptr.processJson();
-	
-	Если Результат = 0 Тогда
-		ПредварительныйРезультатРегистрации = ПолучитьСтрокуJSONИзСтруктуры(ПолучитьСтруктурированныеДанныеJSON(fptr.getParamString(fptr.LIBFPTR_PARAM_JSON_DATA)));
+	КодОшибки = fptr.processJson();
+	Ответ = ПолучитьСтруктурированныеДанныеJSON(fptr.getParamString(fptr.LIBFPTR_PARAM_JSON_DATA));
+	Если КодОшибки = 0 Тогда
+		ПредварительныйРезультатРегистрации = ПолучитьСтрокуJSONИзСтруктуры(Ответ);
 	КонецЕсли;
 	
-	Возврат Результат;
+	Возврат Новый Структура("КодОшибки,Ответ",КодОшибки,Ответ);
 КонецФункции
 
 &НаКлиенте
@@ -3213,13 +3213,13 @@
 	
 	fptr.setParam(fptr.LIBFPTR_PARAM_JSON_DATA, ЗаданиеJSONСтрокой);
 	
-	Результат = fptr.processJson();
-	
-	Если Результат = 0 Тогда
-		ПредварительныйРезультатРегистрации = ПолучитьСтрокуJSONИзСтруктуры(ПолучитьСтруктурированныеДанныеJSON(fptr.getParamString(fptr.LIBFPTR_PARAM_JSON_DATA)));
+	КодОшибки = fptr.processJson();
+	Ответ = ПолучитьСтруктурированныеДанныеJSON(fptr.getParamString(fptr.LIBFPTR_PARAM_JSON_DATA));
+	Если КодОшибки = 0 Тогда
+		ПредварительныйРезультатРегистрации = ПолучитьСтрокуJSONИзСтруктуры(Ответ);
 	КонецЕсли;
 	
-	Возврат Результат;
+	Возврат Новый Структура("КодОшибки,Ответ",КодОшибки,Ответ);
 КонецФункции
 
 &НаКлиенте

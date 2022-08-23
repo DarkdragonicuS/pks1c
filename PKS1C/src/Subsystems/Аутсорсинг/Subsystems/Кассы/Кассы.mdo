@@ -20,5 +20,6 @@
   <content>InformationRegister.КарточкиРегистрацийККТ</content>
   <content>Enum.СтатусыРегистрацииККТ</content>
   <content>Enum.ВерсииФФД</content>
+  <content>CommonModule.АутсорсРаботаСККТАтолКлиент</content>
   <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
 </mdclass:Subsystem>
