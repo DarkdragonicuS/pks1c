@@ -156,6 +156,13 @@
           <value></value>
         </code>
       </content>
+      <content id="a6e4ef88-4d76-40c7-b908-54b1f38dee91">
+        <name>АдресУстановкиАУ</name>
+        <description>Адрес установки АУ</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
     </items>
     <items id="1eb868ef-bd2c-48a5-a4f7-add19a4ffb77">
       <name>СправочникКонтактныеЛицаПартнеров</name>
