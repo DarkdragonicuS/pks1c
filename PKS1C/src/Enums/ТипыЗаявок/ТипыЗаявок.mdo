@@ -77,4 +77,11 @@
       <value>Разработка</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="5fd1ced9-a784-4367-a8d4-c71a52b11adc">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
