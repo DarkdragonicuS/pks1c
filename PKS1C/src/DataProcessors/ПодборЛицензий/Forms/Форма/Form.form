@@ -224,6 +224,17 @@
         <segments>ТабЗнач</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
+      <excludedCommands>ShowRowRearrangement</excludedCommands>
+      <excludedCommands>EndEdit</excludedCommands>
+      <excludedCommands>MoveUp</excludedCommands>
+      <excludedCommands>Delete</excludedCommands>
+      <excludedCommands>SelectAll</excludedCommands>
+      <excludedCommands>Change</excludedCommands>
+      <excludedCommands>Copy</excludedCommands>
+      <excludedCommands>SearchEverywhere</excludedCommands>
+      <excludedCommands>Add</excludedCommands>
+      <excludedCommands>MoveDown</excludedCommands>
+      <excludedCommands>ShowMultipleSelection</excludedCommands>
       <items xsi:type="form:FormField">
         <name>ТабЗначНоменклатура</name>
         <id>70</id>
@@ -432,10 +443,48 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
-      <commandBarLocation>None</commandBarLocation>
+      <commandBarLocation>Top</commandBarLocation>
       <autoCommandBar>
         <name>ТабЗначКоманднаяПанель</name>
         <id>59</id>
+        <items xsi:type="form:Addition">
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <name>СтрокаПоиска</name>
+          <id>119</id>
+          <extendedTooltip>
+            <name>СтрокаПоискаРасширеннаяПодсказка</name>
+            <id>121</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СтрокаПоискаКонтекстноеМеню</name>
+            <id>120</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <source>ТабЗначСтрокаПоиска</source>
+          <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+          </extInfo>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
