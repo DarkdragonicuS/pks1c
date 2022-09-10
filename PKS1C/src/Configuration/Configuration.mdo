@@ -3627,6 +3627,7 @@
   <commonModules>CommonModule.АутсорсРаботы</commonModules>
   <commonModules>CommonModule.АутсорсФункцииДокументовСервер</commonModules>
   <commonModules>CommonModule.АутсорсРаботаСККТАтолКлиент</commonModules>
+  <commonModules>CommonModule.АутсорсККТСервер</commonModules>
   <commonAttributes>CommonAttribute.ОбластьДанныхВспомогательныеДанные</commonAttributes>
   <commonAttributes>CommonAttribute.ОбластьДанныхОсновныеДанные</commonAttributes>
   <commonAttributes>CommonAttribute.Автор</commonAttributes>

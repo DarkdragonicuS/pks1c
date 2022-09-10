@@ -21,5 +21,6 @@
   <content>Enum.СтатусыРегистрацииККТ</content>
   <content>Enum.ВерсииФФД</content>
   <content>CommonModule.АутсорсРаботаСККТАтолКлиент</content>
+  <content>CommonModule.АутсорсККТСервер</content>
   <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
 </mdclass:Subsystem>

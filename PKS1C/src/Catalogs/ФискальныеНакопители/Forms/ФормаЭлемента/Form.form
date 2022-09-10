@@ -13,6 +13,10 @@
         <segments>Объект.Code</segments>
       </paths>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>КодПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>КодРасширеннаяПодсказка</name>
       <id>3</id>
