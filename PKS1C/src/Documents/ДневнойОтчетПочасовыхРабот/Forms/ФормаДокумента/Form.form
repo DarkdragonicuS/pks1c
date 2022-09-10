@@ -335,25 +335,34 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:LabelFieldExtInfo">
+          <handlers>
+            <event>Click</event>
+            <name>НомерЗаявкиНажатие</name>
+          </handlers>
           <autoMaxHeight>true</autoMaxHeight>
+          <hyperlink>true</hyperlink>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаКонтактноеЛицо</name>
         <id>97</id>
         <items xsi:type="form:FormField">
-          <name>Контакт</name>
+          <name>КонтактноеЛицо</name>
           <id>99</id>
+          <title>
+            <key>ru</key>
+            <value>Контакт</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Контакт</segments>
+            <segments>КонтактноеЛицо</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КонтактРасширеннаяПодсказка</name>
+            <name>КонтактноеЛицоРасширеннаяПодсказка</name>
             <id>101</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -368,7 +377,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>КонтактКонтекстноеМеню</name>
+            <name>КонтактноеЛицоКонтекстноеМеню</name>
             <id>100</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1945,10 +1954,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>Контакт</name>
+    <name>КонтактноеЛицо</name>
     <title>
       <key>ru</key>
-      <value>Контакт</value>
+      <value>Контактное лицо</value>
     </title>
     <id>7</id>
     <valueType>
