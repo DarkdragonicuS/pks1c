@@ -18,4 +18,5 @@
   <content>Constant.ПользовательБотTelegram</content>
   <content>InformationRegister.ПользователиБотаTelegram</content>
   <content>InformationRegister.РасшифровкаКомандTelegram</content>
+  <content>ScheduledJob.ВзаимодействиеСTelegram</content>
 </mdclass:Subsystem>
