@@ -19,4 +19,5 @@
   <content>InformationRegister.ПользователиБотаTelegram</content>
   <content>InformationRegister.РасшифровкаКомандTelegram</content>
   <content>Role.тгБазовыеПрава</content>
+  <content>ScheduledJob.ВзаимодействиеСTelegram</content>
 </mdclass:Subsystem>
