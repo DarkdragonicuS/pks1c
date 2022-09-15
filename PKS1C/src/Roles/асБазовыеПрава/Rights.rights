@@ -2990,6 +2990,14 @@
 			<name>ViewDataHistory</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.ДневнойОтчетПочасовыхРабот.Command.Печать</name>
