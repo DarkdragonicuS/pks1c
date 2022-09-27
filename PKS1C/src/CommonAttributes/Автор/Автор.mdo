@@ -44,6 +44,22 @@
     <metadata>Document.ДоговорОбслуживания</metadata>
     <use>Use</use>
   </content>
+  <content>
+    <metadata>Catalog.Клиенты</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.КонтрольноКассоваяТехника</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.ФискальныеНакопители</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.КлючевыеНосители</metadata>
+    <use>Use</use>
+  </content>
   <autoUse>DontUse</autoUse>
   <dataSeparation>DontUse</dataSeparation>
   <usersSeparation>DontUse</usersSeparation>
