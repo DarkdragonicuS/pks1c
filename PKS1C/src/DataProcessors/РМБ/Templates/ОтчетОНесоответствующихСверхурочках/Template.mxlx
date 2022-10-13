@@ -66,11 +66,17 @@
 			<c>
 				<c>
 					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -81,7 +87,7 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -92,7 +98,7 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -103,7 +109,7 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -114,7 +120,7 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -125,7 +131,7 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -136,7 +142,7 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -152,55 +158,55 @@
 		<row>
 			<c>
 				<c>
-					<f>9</f>
+					<f>10</f>
 					<parameter>НомерСтроки</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>10</f>
+					<f>11</f>
 					<parameter>Дата</parameter>
 					<detailParameter>ПочасовойОтчет</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>12</f>
 					<parameter>ВремяПрибытия</parameter>
 					<detailParameter>ПочасовойОтчет</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>12</f>
 					<parameter>ВремяЗавершения</parameter>
 					<detailParameter>ПочасовойОтчет</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>12</f>
+					<f>13</f>
 					<parameter>Исполнитель</parameter>
 					<detailParameter>Исполнитель</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>13</f>
+					<f>14</f>
 					<parameter>Организация</parameter>
 					<detailParameter>Организация</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>12</f>
+					<f>13</f>
 					<parameter>Сверхурочка</parameter>
 					<detailParameter>ПочасовойОтчет</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>13</f>
+					<f>14</f>
 					<parameter>СоставРабот</parameter>
 					<detailParameter>ПочасовойОтчет</detailParameter>
 				</c>
@@ -208,7 +214,7 @@
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>14</defaultFormatIndex>
+	<defaultFormatIndex>15</defaultFormatIndex>
 	<height>2</height>
 	<vgRows>2</vgRows>
 	<namedItem xsi:type="NamedItemCells">
@@ -254,6 +260,11 @@
 	</format>
 	<format>
 		<width>41</width>
+	</format>
+	<format>
+		<border>0</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
 	</format>
 	<format>
 		<border>0</border>

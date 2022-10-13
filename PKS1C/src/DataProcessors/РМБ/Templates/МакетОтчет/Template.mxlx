@@ -43,6 +43,12 @@
 			<c>
 				<c>
 					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
@@ -587,9 +593,11 @@
 		<fillType>Text</fillType>
 	</format>
 	<format>
-		<border>0</border>
+		<leftBorder>0</leftBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
 		<width>103</width>
-		<horizontalAlignment>Left</horizontalAlignment>
+		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 	</format>
 	<format>
@@ -624,8 +632,11 @@
 		<fillType>Text</fillType>
 	</format>
 	<format>
+		<leftBorder>0</leftBorder>
 		<rightBorder>0</rightBorder>
-		<bottomBorder>0</bottomBorder>
+		<width>103</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
 	</format>
 	<format>
 		<width>103</width>

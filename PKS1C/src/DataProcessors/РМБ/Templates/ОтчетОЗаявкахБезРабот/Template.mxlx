@@ -48,11 +48,17 @@
 			<c>
 				<c>
 					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -63,7 +69,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -74,7 +80,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -85,7 +91,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -96,7 +102,7 @@
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>6</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -112,20 +118,20 @@
 		<row>
 			<c>
 				<c>
-					<f>6</f>
+					<f>7</f>
 					<parameter>НомерСтроки</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<parameter>Номер</parameter>
 					<detailParameter>Заявка</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -137,7 +143,7 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -149,14 +155,14 @@
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>10</f>
 					<parameter>Клиент</parameter>
 					<detailParameter>КлиентСсылка</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>10</f>
 					<parameter>Тема</parameter>
 					<detailParameter>Заявка</detailParameter>
 				</c>
@@ -203,6 +209,11 @@
 	</format>
 	<format>
 		<width>43</width>
+	</format>
+	<format>
+		<border>0</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
 	</format>
 	<format>
 		<border>0</border>
