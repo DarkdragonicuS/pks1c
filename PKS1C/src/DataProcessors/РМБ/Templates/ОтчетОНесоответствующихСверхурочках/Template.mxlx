@@ -10,27 +10,21 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>7</size>
+		<size>8</size>
 		<columnsItem>
-			<index>0</index>
-			<column>
-				<formatIndex>0</formatIndex>
-			</column>
-		</columnsItem>
-		<columnsItem>
-			<index>1</index>
+			<index>7</index>
 			<column>
 				<formatIndex>1</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>2</index>
+			<index>6</index>
 			<column>
 				<formatIndex>2</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>3</index>
+			<index>5</index>
 			<column>
 				<formatIndex>3</formatIndex>
 			</column>
@@ -42,15 +36,27 @@
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>5</index>
+			<index>3</index>
 			<column>
 				<formatIndex>5</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>6</index>
+			<index>2</index>
 			<column>
 				<formatIndex>6</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>1</index>
+			<column>
+				<formatIndex>0</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>7</formatIndex>
 			</column>
 		</columnsItem>
 	</columns>
@@ -59,7 +65,12 @@
 		<row>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -70,7 +81,7 @@
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -81,7 +92,7 @@
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -92,7 +103,7 @@
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -103,7 +114,7 @@
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -114,7 +125,7 @@
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -125,7 +136,7 @@
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -141,49 +152,55 @@
 		<row>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
+					<parameter>НомерСтроки</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>10</f>
 					<parameter>Дата</parameter>
 					<detailParameter>ПочасовойОтчет</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>11</f>
 					<parameter>ВремяПрибытия</parameter>
 					<detailParameter>ПочасовойОтчет</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>11</f>
 					<parameter>ВремяЗавершения</parameter>
 					<detailParameter>ПочасовойОтчет</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>10</f>
+					<f>12</f>
 					<parameter>Исполнитель</parameter>
 					<detailParameter>Исполнитель</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>13</f>
 					<parameter>Организация</parameter>
 					<detailParameter>Организация</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>10</f>
+					<f>12</f>
 					<parameter>Сверхурочка</parameter>
 					<detailParameter>ПочасовойОтчет</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>11</f>
+					<f>13</f>
 					<parameter>СоставРабот</parameter>
 					<detailParameter>ПочасовойОтчет</detailParameter>
 				</c>
@@ -191,7 +208,7 @@
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>12</defaultFormatIndex>
+	<defaultFormatIndex>14</defaultFormatIndex>
 	<height>2</height>
 	<vgRows>2</vgRows>
 	<namedItem xsi:type="NamedItemCells">
@@ -218,25 +235,40 @@
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
 	<format>
-		<width>65</width>
-	</format>
-	<format>
-		<width>71</width>
-	</format>
-	<format>
-		<width>94</width>
-	</format>
-	<format>
-		<width>99</width>
+		<width>259</width>
 	</format>
 	<format>
 		<width>74</width>
 	</format>
 	<format>
-		<width>259</width>
+		<width>99</width>
+	</format>
+	<format>
+		<width>94</width>
+	</format>
+	<format>
+		<width>71</width>
+	</format>
+	<format>
+		<width>65</width>
+	</format>
+	<format>
+		<width>41</width>
 	</format>
 	<format>
 		<border>0</border>
+	</format>
+	<format>
+		<border>0</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ДФ=dd.MM.yy</v8:content>
+			</v8:item>
+		</format>
 	</format>
 	<format>
 		<border>0</border>
