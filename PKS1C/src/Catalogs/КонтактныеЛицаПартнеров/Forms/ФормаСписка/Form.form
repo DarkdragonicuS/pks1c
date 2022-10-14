@@ -224,6 +224,60 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
+      <name>Email</name>
+      <id>67</id>
+      <title>
+        <key>ru</key>
+        <value>e-mail</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Email</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>EmailРасширеннаяПодсказка</name>
+        <id>69</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>EmailКонтекстноеМеню</name>
+        <id>68</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>Клиент</name>
       <id>64</id>
       <visible>true</visible>
@@ -908,7 +962,8 @@
 	СправочникКонтактныеЛицаПартнеров.Пол,
 	СправочникКонтактныеЛицаПартнеров.ДатаРождения,
 	ВЫРАЗИТЬ (&quot;&quot; КАК СТРОКА(255)) КАК Телефон,
-	ВЫРАЗИТЬ (&quot;&quot; КАК СТРОКА(255)) КАК Клиент
+	ВЫРАЗИТЬ (&quot;&quot; КАК СТРОКА(255)) КАК Клиент,
+	ВЫРАЗИТЬ (&quot;&quot; КАК СТРОКА(255)) КАК Email
 ИЗ
 	Справочник.КонтактныеЛицаПартнеров КАК СправочникКонтактныеЛицаПартнеров
 	ЛЕВОЕ СОЕДИНЕНИЕ Справочник.КонтактныеЛицаПартнеров.РолиКонтактногоЛица КАК КонтактныеЛицаПартнеровРолиКонтактногоЛица
