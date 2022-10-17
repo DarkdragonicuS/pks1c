@@ -23,7 +23,7 @@
   <content>Catalog.Производители</content>
   <content>Enum.СтатусыДоговоровОбслуживания</content>
   <content>Report.КлиентыВЧерномСписке</content>
-  <content>CommonModule.АутсорсКлиентыСервер</content>
   <content>Catalog.КонтактныеЛицаПартнеров</content>
+  <content>CommonModule.АутсорсКлиентыСервер</content>
   <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
 </mdclass:Subsystem>
