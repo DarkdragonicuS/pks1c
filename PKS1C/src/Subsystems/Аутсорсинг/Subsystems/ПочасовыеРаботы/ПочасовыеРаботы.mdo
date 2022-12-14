@@ -34,5 +34,6 @@
   <content>Report.ПомесячныйОтчет</content>
   <content>Role.асРедактированиеЗакрытыхЗаявок</content>
   <content>CommonModule.ВзаимодействиеСTelegramСервер</content>
+  <content>DataProcessor.АРМСпециалиста</content>
   <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
 </mdclass:Subsystem>

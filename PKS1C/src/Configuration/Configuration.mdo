@@ -7720,6 +7720,7 @@
   <dataProcessors>DataProcessor.БотTelegram</dataProcessors>
   <dataProcessors>DataProcessor.РМБ</dataProcessors>
   <dataProcessors>DataProcessor.ГрафикДежурств</dataProcessors>
+  <dataProcessors>DataProcessor.АРМСпециалиста</dataProcessors>
   <informationRegisters>InformationRegister.ABCXYZКлассификацияКлиентов</informationRegisters>
   <informationRegisters>InformationRegister.ABCXYZКлассификацияНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.АдресаЗонОтветственностиВЕТИС</informationRegisters>
