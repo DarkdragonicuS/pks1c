@@ -290,4 +290,18 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>Document.ЗаявкаНаРемонт.Command.ТалонНаРемонт</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаявкаНаРемонт.Command.АктВыполненныхРабот</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>
