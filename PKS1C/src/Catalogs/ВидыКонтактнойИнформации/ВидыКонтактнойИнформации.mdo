@@ -502,6 +502,21 @@
         </code>
       </content>
     </items>
+    <items id="461a7bcc-a7b2-4556-98b8-9c48f0071376">
+      <name>СправочникКлиенты</name>
+      <description>Справочник клиенты</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="b61f73d4-b419-4759-a354-eb7a0c4d959b">
+        <name>АдресКлиента</name>
+        <description>Адрес</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
   </predefined>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ВидыКонтактнойИнформации.Form.ФормаЭлемента</defaultObjectForm>
