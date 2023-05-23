@@ -364,6 +364,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="91a4f849-cab2-447a-b84b-9223c2ce01ac">
+    <name>ФормаОчередиЗаявок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль очереди заявок</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="21acf495-7c65-4ff5-9dd1-0c9e1393b4a4">
     <name>Печать</name>
   </templates>

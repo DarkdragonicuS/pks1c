@@ -6,4 +6,5 @@
     <value>Аутсорс работы</value>
   </synonym>
   <server>true</server>
+  <serverCall>true</serverCall>
 </mdclass:CommonModule>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09473935-ce1a-4a47-ac52-e34a72d7eac1">
+  <producedTypes>
+    <selectionType typeId="bc30d096-04d2-4532-817a-04b940422f18" valueTypeId="7fc73de2-0418-4177-80be-72df458b163c"/>
+    <listType typeId="7f8749c1-d59f-4aa2-a1bf-93e1f92e2bf1" valueTypeId="f4289ed6-0360-40d5-8867-e566c79345bc"/>
+    <managerType typeId="971c5646-1441-4efa-8186-a7aba82e239b" valueTypeId="dbf35971-319b-4c48-a821-586665456677"/>
+    <recordSetType typeId="e572ab68-bae6-4262-95ae-d673cd177bef" valueTypeId="6d91dd55-5815-4ad2-a34d-48524e62ea9d"/>
+    <recordKeyType typeId="7f450053-5219-4fea-906f-6c7ea1da40f6" valueTypeId="64791544-9793-4aa5-bf1e-979723bf25e2"/>
+    <recordType typeId="8ef0c426-64ef-4665-a882-80b19f32f07a" valueTypeId="4f4eeeff-d7bb-4409-a9e9-3d0829aae6dd"/>
+    <recordManagerType typeId="c289f491-f067-4c65-8b02-03754f2e2398" valueTypeId="c12be7cc-0e2d-4ccf-86a1-9eec21d671dc"/>
+  </producedTypes>
+  <name>СписокЗаявокВОчереди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список заявок в очереди</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="90e2f744-f647-449b-89a7-5089a8f3b75b">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор списка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8ddde2d8-775b-4a30-80c0-8dad0d8bb5f5">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаявкиКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

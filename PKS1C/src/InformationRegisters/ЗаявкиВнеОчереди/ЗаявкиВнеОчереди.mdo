@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="527a296f-b3e8-4be3-abca-c682a18abd09">
+  <producedTypes>
+    <selectionType typeId="d6511122-a5f4-441b-971c-341b501dd105" valueTypeId="d176a31d-5d4f-4840-a4b5-25c5794db6b9"/>
+    <listType typeId="9dfb2210-1948-4450-ade7-1aecc9bf8329" valueTypeId="a90e289b-0746-4095-aa0d-f73b732a2ce1"/>
+    <managerType typeId="daf3898b-127c-4253-aedf-94bda3a86507" valueTypeId="0c56aa5a-fca1-4690-8181-9ed3d1a6c966"/>
+    <recordSetType typeId="a9a38140-7b01-42fd-826c-cb07b059f284" valueTypeId="82eebf62-8e57-4c9b-a8cf-0c37e6a26a54"/>
+    <recordKeyType typeId="faaeb7e1-864e-4a3e-a7fe-dfe7249cc6af" valueTypeId="866ccc84-4f9f-4900-aa6b-723e82465a4c"/>
+    <recordType typeId="04fa25fa-82fe-4fc7-a715-b17b6823dadd" valueTypeId="ef1a77bb-a1ec-4ead-bff4-f5406f684de7"/>
+    <recordManagerType typeId="6969b9f5-9a84-4709-a44c-95367637c053" valueTypeId="48ff7df1-8da1-42f6-84b1-fe55d32f81b3"/>
+  </producedTypes>
+  <name>ЗаявкиВнеОчереди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявки вне очереди</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6d68e9c2-1338-4d28-a7c0-a0f5f99f2b9f">
+    <name>Причина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f8ca84e0-71c0-49ce-ab8e-fa12828c1344">
+    <name>ИдентификаторСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор списка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7b9bc7e1-8bcc-41e2-8ddc-d7c6916f9a7a">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a436c25b-a7d6-4433-a581-e76e64987243">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаявкиКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

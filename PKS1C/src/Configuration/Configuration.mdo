@@ -8172,6 +8172,8 @@
   <informationRegisters>InformationRegister.КарточкиРегистрацийККТ</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикДежурств</informationRegisters>
   <informationRegisters>InformationRegister.ИсторияИзмененийДокументов</informationRegisters>
+  <informationRegisters>InformationRegister.ЗаявкиВнеОчереди</informationRegisters>
+  <informationRegisters>InformationRegister.СписокЗаявокВОчереди</informationRegisters>
   <accumulationRegisters>AccumulationRegister.БонусныеБаллы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВыручкаИСебестоимостьПродаж</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ГрафикОтгрузкиТоваров</accumulationRegisters>
