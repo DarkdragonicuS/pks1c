@@ -2066,6 +2066,7 @@
   <roles>Role.срсБазовыеПрава</roles>
   <roles>Role.тгБазовыеПрава</roles>
   <roles>Role.асРедактированиеЧужихЗаявок</roles>
+  <roles>Role.асИгнорированиеОчередиЗаявок</roles>
   <commonTemplates>CommonTemplate.ГеографическаяСхемаКартаМира</commonTemplates>
   <commonTemplates>CommonTemplate.ГеографическаяСхемаРоссияРегионыИВсеГорода</commonTemplates>
   <commonTemplates>CommonTemplate.ГеографическаяСхемаРоссияРегионыИСтолицы</commonTemplates>

@@ -36,5 +36,6 @@
   <content>CommonModule.ВзаимодействиеСTelegramСервер</content>
   <content>InformationRegister.ЗаявкиВнеОчереди</content>
   <content>InformationRegister.СписокЗаявокВОчереди</content>
+  <content>Role.асИгнорированиеОчередиЗаявок</content>
   <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
 </mdclass:Subsystem>
