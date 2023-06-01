@@ -49,16 +49,52 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ЗаявкиВнеОчередиСрезПоследних.Период,
-	ЗаявкиВнеОчередиСрезПоследних.Исполнитель,
-	ЗаявкиВнеОчередиСрезПоследних.Заявка КАК ВнеочереднаяЗаявка,
-	ЗаявкиВнеОчередиСрезПоследних.Причина,
+	ЗаявкиВнеОчереди.Период,
+	ЗаявкиВнеОчереди.Исполнитель,
+	ЗаявкиВнеОчереди.Заявка КАК ВнеочереднаяЗаявка,
+	ЗаявкиВнеОчереди.Причина,
 	СписокЗаявокВОчереди.Заявка КАК НепринятаяЗаявка
 ИЗ
-	РегистрСведений.ЗаявкиВнеОчереди КАК ЗаявкиВнеОчередиСрезПоследних
+	РегистрСведений.ЗаявкиВнеОчереди КАК ЗаявкиВнеОчереди
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СписокЗаявокВОчереди КАК СписокЗаявокВОчереди
-		ПО ЗаявкиВнеОчередиСрезПоследних.ИдентификаторСписка = СписокЗаявокВОчереди.ID</query>
+		ПО ЗаявкиВнеОчереди.ИдентификаторСписка = СписокЗаявокВОчереди.ID
+{ГДЕ
+	ЗаявкиВнеОчереди.Период &gt;= &amp;ДатаНачала}
+{ГДЕ
+	ЗаявкиВнеОчереди.Период &lt;= КонецПериода(&amp;ДатаОкончания, День)}</query>
 	</dataSet>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>с</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>по</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<useRestriction>false</useRestriction>
+	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="v8:LocalStringType">
@@ -82,6 +118,18 @@
 					<dcsset:field>Причина</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ДатаОкончания</dcscor:parameter>
+					<dcsset:userSettingID>f96cfe7c-f1ee-47ea-b63d-b26bf8fe5a7d</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ДатаНачала</dcscor:parameter>
+					<dcsset:userSettingID>030a3a55-e629-4cba-b6a6-0a004f582c68</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
