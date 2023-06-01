@@ -49,7 +49,7 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ЗаявкиВнеОчереди.Период,
+	ЗаявкиВнеОчереди.Период КАК Период,
 	ЗаявкиВнеОчереди.Исполнитель,
 	ЗаявкиВнеОчереди.Заявка КАК ВнеочереднаяЗаявка,
 	ЗаявкиВнеОчереди.Причина,
@@ -61,7 +61,11 @@
 {ГДЕ
 	ЗаявкиВнеОчереди.Период &gt;= &amp;ДатаНачала}
 {ГДЕ
-	ЗаявкиВнеОчереди.Период &lt;= КонецПериода(&amp;ДатаОкончания, День)}</query>
+	ЗаявкиВнеОчереди.Период &lt;= КонецПериода(&amp;ДатаОкончания, День)}
+
+УПОРЯДОЧИТЬ ПО
+	Исполнитель,
+	Период</query>
 	</dataSet>
 	<parameter>
 		<name>ДатаНачала</name>
@@ -122,12 +126,12 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>ДатаОкончания</dcscor:parameter>
-					<dcsset:userSettingID>f96cfe7c-f1ee-47ea-b63d-b26bf8fe5a7d</dcsset:userSettingID>
+					<dcsset:userSettingID>dc53689f-822a-46c4-af88-19b11bb3be15</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>ДатаНачала</dcscor:parameter>
-					<dcsset:userSettingID>030a3a55-e629-4cba-b6a6-0a004f582c68</dcsset:userSettingID>
+					<dcsset:userSettingID>7c67e5ed-aa87-4488-9634-2c22ec16a6eb</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
