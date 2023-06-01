@@ -37,5 +37,6 @@
   <content>InformationRegister.ЗаявкиВнеОчереди</content>
   <content>InformationRegister.СписокЗаявокВОчереди</content>
   <content>Role.асИгнорированиеОчередиЗаявок</content>
+  <content>Report.ВнеочередныеЗаявки</content>
   <parentSubsystem>Subsystem.Аутсорсинг</parentSubsystem>
 </mdclass:Subsystem>

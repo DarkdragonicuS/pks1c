@@ -7477,6 +7477,7 @@
   <reports>Report.ДвижениеЛицензий</reports>
   <reports>Report.КлиентыВЧерномСписке</reports>
   <reports>Report.ПомесячныйОтчет</reports>
+  <reports>Report.ВнеочередныеЗаявки</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
   <dataProcessors>DataProcessor.АрхивированиеУдалениеЧековККМ</dataProcessors>

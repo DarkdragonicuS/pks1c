@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b288ac13-6d8c-4d98-8c22-b15a536b0e4d">
+  <producedTypes>
+    <objectType typeId="30378282-1a0b-447a-9a7e-0e8bee55a4e3" valueTypeId="e7ec7401-0276-4cf8-8a7b-c8b96b3315df"/>
+    <managerType typeId="d716f0f8-fdd1-49f5-907c-2e5ad185e473" valueTypeId="2bf480f8-acdb-4572-b470-2ed27b3ee582"/>
+  </producedTypes>
+  <name>ВнеочередныеЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявки, принятые вне очереди</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВнеочередныеЗаявки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="35af6472-0e7c-460d-8df5-321c0ee40c2a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
