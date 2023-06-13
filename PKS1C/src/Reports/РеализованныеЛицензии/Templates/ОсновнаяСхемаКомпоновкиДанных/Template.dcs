@@ -56,12 +56,12 @@
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Контрагент</dataPath>
-			<field>Контрагент</field>
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Контрагент</v8:content>
+					<v8:content>Организация</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -88,7 +88,7 @@
 	Т1.Серия КАК Серия,
 	Т1.Номер КАК Номер,
 	Т1.КодАктивации КАК КодАктивации,
-	Лицензии.Регистратор.Контрагент КАК РегистраторКонтрагент,
+	Лицензии.Регистратор.Контрагент КАК Контрагент,
 	Лицензии.Регистратор КАК Регистратор,
 	Лицензии.Период КАК Период
 ПОМЕСТИТЬ Т2
@@ -117,7 +117,7 @@
 	Т2.Регистратор КАК ДокументРеализации,
 	Т2.Период КАК Период,
 	РеализацияЛицензийТовары.Клиент КАК Клиент,
-	РеализацияЛицензийТовары.Ссылка.Контрагент КАК Контрагент
+	Т2.Контрагент КАК Организация
 ИЗ
 	Т2 КАК Т2
 		ЛЕВОЕ СОЕДИНЕНИЕ Документ.РеализацияЛицензий.Товары КАК РеализацияЛицензийТовары
@@ -263,7 +263,8 @@
 			</dcsset:selection>
 			<dcsset:filter>
 				<dcsset:item xsi:type="dcsset:FilterItemComparison">
-					<dcsset:left xsi:type="dcscor:Field">Контрагент</dcsset:left>
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Организация</dcsset:left>
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
 					<dcsset:right xsi:nil="true"/>
 					<dcsset:userSettingID>bbde10f0-c8c9-41c9-a2c0-f12ab20ff107</dcsset:userSettingID>
@@ -272,7 +273,7 @@
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
-						<dcsset:field>Контрагент</dcsset:field>
+						<dcsset:field>Организация</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 					</dcsset:item>
