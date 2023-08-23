@@ -383,14 +383,4 @@
       <value>Акт вызова</value>
     </synonym>
   </templates>
-  <commands uuid="9ecdbc0d-e7f7-4bb0-ab7f-a59440a3b493">
-    <name>Печать</name>
-    <group>FormCommandBarImportant</group>
-    <commandParameterType>
-      <types>DocumentRef.ЗаявкиКлиентов</types>
-    </commandParameterType>
-    <parameterUseMode>Multiple</parameterUseMode>
-    <representation>Auto</representation>
-    <shortcut></shortcut>
-  </commands>
 </mdclass:Document>
