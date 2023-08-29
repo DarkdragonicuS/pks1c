@@ -376,11 +376,7 @@
   <templates uuid="21acf495-7c65-4ff5-9dd1-0c9e1393b4a4">
     <name>Печать</name>
   </templates>
-  <templates uuid="b5e9d3e7-6451-4729-947e-f35dd589e77a">
+  <templates uuid="45b319b4-967e-4f02-8841-e797c71ef71d">
     <name>АктВызова</name>
-    <synonym>
-      <key>ru</key>
-      <value>Акт вызова</value>
-    </synonym>
   </templates>
 </mdclass:Document>
