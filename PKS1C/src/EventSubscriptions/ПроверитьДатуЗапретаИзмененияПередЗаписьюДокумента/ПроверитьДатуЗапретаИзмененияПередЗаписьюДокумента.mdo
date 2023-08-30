@@ -96,6 +96,7 @@
     <types>DocumentObject.ЗаписьКнигиПродаж</types>
     <types>DocumentObject.АвансовыйОтчет</types>
     <types>DocumentObject.ОрдерНаПеремещениеТоваров</types>
+    <types>DocumentObject.ДневнойОтчетПочасовыхРабот</types>
   </source>
   <event>BeforeWrite</event>
   <handler>CommonModule.ДатыЗапретаИзменения.ПроверитьДатуЗапретаИзмененияПередЗаписьюДокумента</handler>

@@ -34,6 +34,7 @@
     <types>AccumulationRegisterRecordSet.ПартииТоваровОрганизаций</types>
     <types>InformationRegisterRecordSet.СостоянияБлокировкиВычетаНДСПоСчетамФактурам</types>
     <types>AccumulationRegisterRecordSet.ДенежныеСредстваУПодотчетныхЛиц</types>
+    <types>InformationRegisterRecordSet.ПочасовыеРаботы</types>
   </source>
   <event>BeforeWrite</event>
   <handler>CommonModule.ДатыЗапретаИзменения.ПроверитьДатуЗапретаИзмененияПередЗаписьюНабораЗаписей</handler>
