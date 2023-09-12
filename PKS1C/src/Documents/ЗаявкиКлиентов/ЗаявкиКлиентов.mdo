@@ -376,14 +376,11 @@
   <templates uuid="21acf495-7c65-4ff5-9dd1-0c9e1393b4a4">
     <name>Печать</name>
   </templates>
-  <commands uuid="9ecdbc0d-e7f7-4bb0-ab7f-a59440a3b493">
-    <name>Печать</name>
-    <group>FormCommandBarImportant</group>
-    <commandParameterType>
-      <types>DocumentRef.ЗаявкиКлиентов</types>
-    </commandParameterType>
-    <parameterUseMode>Multiple</parameterUseMode>
-    <representation>Auto</representation>
-    <shortcut></shortcut>
-  </commands>
+  <templates uuid="1b82e125-4390-4d6c-8caf-01c9fef24958">
+    <name>АктВызова</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт вызова</value>
+    </synonym>
+  </templates>
 </mdclass:Document>
