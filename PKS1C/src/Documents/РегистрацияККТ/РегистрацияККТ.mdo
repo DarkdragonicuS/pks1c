@@ -1359,4 +1359,11 @@
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>
+  <templates uuid="24c24a14-acb9-4a4d-9edf-cf3eb38e14a6">
+    <name>Доверенность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доверенность</value>
+    </synonym>
+  </templates>
 </mdclass:Document>
