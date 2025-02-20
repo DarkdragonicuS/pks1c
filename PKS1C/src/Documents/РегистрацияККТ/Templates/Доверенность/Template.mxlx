@@ -338,6 +338,7 @@
 	</format>
 	<format>
 		<horizontalAlignment>Right</horizontalAlignment>
+		<fillType>Template</fillType>
 	</format>
 	<format>
 		<bottomBorder>0</bottomBorder>
