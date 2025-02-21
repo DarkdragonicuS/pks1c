@@ -213,6 +213,10 @@
         <length>150</length>
       </stringQualifiers>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Представитель в заявлении</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -253,6 +257,30 @@
         <length>15</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c229e477-75fa-4101-b21c-81e029dc0d40">
+    <name>Доверитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доверитель (для доверенности)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Глава организации, используется в доверенности</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
